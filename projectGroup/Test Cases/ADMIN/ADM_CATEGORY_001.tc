@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>View category list</description>
+   <name>ADM_CATEGORY_001</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e42a598-4fb4-4f53-aff3-29dc52bcc79d</testCaseGuid>
+</TestCaseEntity>

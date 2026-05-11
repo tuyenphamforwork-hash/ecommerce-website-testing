@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Catagory</name>
+   <tag></tag>
+   <elementGuidId>e2ca8600-2ae0-4d7a-8ebd-79779a1b283e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;catagory\.php&quot;] h6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = 'catagory.php']//h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>42cc454e-caaf-4979-bcca-8cf0cbdf5f9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Catagory</value>
+      <webElementGuid>87bd7110-78de-4c89-afe4-1a965ca084fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-6405d623b73d974972e953948664c27c</value>
+      <webElementGuid>220efab5-49db-4f99-b732-665abf55f677</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = 'catagory.php']//h6</value>
+      <webElementGuid>0fd71968-e785-4be8-a7c8-8200962b3502</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = 'catagory.php']//h6</value>
+      <webElementGuid>e6f6ac71-3ac8-47a4-8213-f5a2bebf536a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Catagory' or . = 'Catagory')]</value>
+      <webElementGuid>e80ee269-a9af-4fda-add3-f2beecb3df59</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

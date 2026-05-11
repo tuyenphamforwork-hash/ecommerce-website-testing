@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Delete existing product</description>
+   <name>ADM_PRODUCT_004</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ffdff6c-e455-4090-81a7-0d301c0fd9a6</testCaseGuid>
+</TestCaseEntity>

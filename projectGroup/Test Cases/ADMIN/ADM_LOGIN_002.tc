@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with invalid password</description>
+   <name>ADM_LOGIN_002</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>10eea6ab-c456-4281-8705-f05abe059769</testCaseGuid>
+</TestCaseEntity>

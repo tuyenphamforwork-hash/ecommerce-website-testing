@@ -1,0 +1,65 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:9999/testing-ecommerce-website/index.php')
+
+WebUI.click(findTestObject('Page_HCA E-Commerce/a_Login'))
+
+WebUI.setText(findTestObject('Page_Login(USER)/input_Email'), 'dev.shahfahad@gmail.com')
+
+WebUI.click(findTestObject('Page_Login(USER)/input_Password'))
+
+WebUI.setEncryptedText(findTestObject('Page_Login(USER)/input_Password'), 'p3dxp9GiIFjIF+Kn2Bb0tA==')
+
+WebUI.click(findTestObject('Page_Login(USER)/label_Remeber Me'))
+
+WebUI.click(findTestObject('Page_Login(USER)/button_login'))
+
+WebUI.click(findTestObject('Page_HCA E-Commerce/a_admin'))
+
+WebUI.click(findTestObject('Page_ADMIN  Login/input_Email'))
+
+WebUI.click(findTestObject('Page_ADMIN  Login/input_Password'))
+
+WebUI.setEncryptedText(findTestObject('Page_ADMIN  Login/input_Password'), 'p3dxp9GiIFjIF+Kn2Bb0tA==')
+
+WebUI.setText(findTestObject('Page_ADMIN  Login/input_Email'), 'dev.shahfahad@gmail.com')
+
+WebUI.click(findTestObject('Page_ADMIN  Login/button_login'))
+
+WebUI.click(findTestObject('Page_Admin-Panel/a_fn_link'))
+
+WebUI.setText(findTestObject('Page_Admin-Panel/input_price'), '24.99')
+
+WebUI.setText(findTestObject('Page_Admin-Panel/input_discount'), '2')
+
+WebUI.click(findTestObject('Page_Admin-Panel/button_Update'))
+
+WebUI.setText(findTestObject('Page_Admin-Panel/input_price'), '24')
+
+WebUI.click(findTestObject('Page_Admin-Panel/button_Update'))
+
+WebUI.click(findTestObject('Page_Admin-Panel/td_td'))
+
+WebUI.click(findTestObject('Page_Admin-Panel/i_fa fa-edit'))
+
+WebUI.click(findTestObject('Page_Admin-Panel/button_Update'))
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_fn_link</name>
+   <tag></tag>
+   <elementGuidId>5eb66225-a56b-45b2-b849-fd097b40bb5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(name() = 'tr') and (position() = 4)]//*[(name() = 'td') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fn_link ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-child(4) td:nth-child(6) .fn_link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>42385a2f-86c5-4529-a48c-ce7b8d1f596a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fn_link</value>
+      <webElementGuid>2cd7eb95-997a-4e8f-9311-133a6d26bc45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>update-post.php?id=27</value>
+      <webElementGuid>93be1700-538d-45a6-9e79-d7849da2929a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2ad3ec8f9687a934be4cd01c5976d812</value>
+      <webElementGuid>b4461f7a-afe1-4513-a0a9-516db119d836</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(name() = 'tr') and (position() = 4)]//*[(name() = 'td') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fn_link ')]</value>
+      <webElementGuid>8d807a42-d8ed-4b97-9b24-d1d3cfe84aa4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(name() = 'tr') and (position() = 4)]//*[(name() = 'td') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fn_link ')]</value>
+      <webElementGuid>37a6a0fa-ab35-47bc-b8e1-9050a1d60bb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'update-post.php?id=27']</value>
+      <webElementGuid>dad36bf5-8e82-4215-8bc3-2520cb17556f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

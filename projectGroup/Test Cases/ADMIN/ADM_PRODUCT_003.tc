@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Update the Uniqlo detail with 24$</description>
+   <name>ADM_PRODUCT_003</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>13bf022e-6b9a-42eb-8b80-f6d1aee99ebe</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add new product Uniqlo T-shirt</description>
+   <name>ADM_PRODUCT_001</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>17745da7-28e8-48f9-a8bf-0d7957692a48</testCaseGuid>
+</TestCaseEntity>

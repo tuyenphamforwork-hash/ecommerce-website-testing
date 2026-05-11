@@ -1,0 +1,20 @@
+dev.shahfahad@gmail.com
+adminfahad
+
+ADM-LOG-01: đăng nhập chức năng admin thành công
+ADM-LOG-02: đăng nhập chức năng admin với pass sai
+ADM-LOG-03: đăng nhập trực tiếp với phân trang admin dashboard ==> không thành công
+
+ADM_PRODUCT_001: add new product thành công
+ADM_PRODUCT_002: add new product với thiếu 1 trường(image)
+ADM_PRODUCT_003: edit lại product 
+ADM_PRODUCT_004: delete product trong danh mục
+
+ADM_USER_001: view the user list
+ADM_USER_002: edit user in4
+ADM_USER_003: delete user 
+
+ADM_CATEGORY_001: view category list
+db cứng nên không thể kiểm tra thêm
+
+ADM_CONFIG_001: change web logo

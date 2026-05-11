@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Adding new product without discount, image fields</description>
+   <name>ADM_PRODUCT_002</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5ae8f934-cd75-440f-9442-bb63f8921925</testCaseGuid>
+</TestCaseEntity>

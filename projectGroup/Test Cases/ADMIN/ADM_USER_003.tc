@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete user</description>
+   <name>ADM_USER_003</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4df84bf7-4f33-4c7f-953c-0fdaa2992ccb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Accessing the Admin Dashboard without login</description>
+   <name>ADM_LOGIN_003</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>300403c1-40cc-44c4-8c05-17297e803e8b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Setting</name>
+   <tag></tag>
+   <elementGuidId>83ffbfa7-c21a-4134-9d44-ff9ea699bcfb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = 'settings.php']//h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;settings\.php&quot;] h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>cac7cce0-9043-413a-806e-2cb7b2bd004c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Setting</value>
+      <webElementGuid>f03a3f01-cc2a-437b-87ac-6f20bb3efb76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f52bbb08592a7607924d229a2f5fe58f</value>
+      <webElementGuid>0a455c09-6a10-4d55-b7e8-358c6fde1fa2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = 'settings.php']//h6</value>
+      <webElementGuid>b4cd5d77-3a90-4033-8c5c-32a48698cbb1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = 'settings.php']//h6</value>
+      <webElementGuid>60d8afdb-1585-4b8c-9036-ba7387d85a00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Setting' or . = 'Setting')]</value>
+      <webElementGuid>bf4f0941-d4b8-4ee1-9652-050fe35b9d8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ADD Products</name>
+   <tag></tag>
+   <elementGuidId>04423745-1c26-475b-a814-0a985d73466b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = 'add-post.php']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;add-post\.php&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'add-post.php' and (text() = 'ADD Products' or . = 'ADD Products')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9ae984ab-4f89-48a8-8290-a74dbc74046d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn</value>
+      <webElementGuid>fc000688-4344-48a7-97f9-484fc183a2d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>add-post.php</value>
+      <webElementGuid>8bb7c87d-37bf-4ec8-8aec-d45ee1a1890b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ADD Products</value>
+      <webElementGuid>b7c011ea-4a41-4116-b48c-45f2cf4a9707</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a29c0fabcc2b55ab97591c363bca153d</value>
+      <webElementGuid>83b1d049-97e8-4708-a87c-99bace032565</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = 'add-post.php']</value>
+      <webElementGuid>24557235-9db7-436c-855d-8bd855c59f0f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = 'add-post.php']</value>
+      <webElementGuid>de3b5671-4481-4c71-8168-258eddeda2f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'add-post.php' and (text() = 'ADD Products' or . = 'ADD Products')]</value>
+      <webElementGuid>b82b20c8-3b17-4ebb-81b3-eb5df5a356d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

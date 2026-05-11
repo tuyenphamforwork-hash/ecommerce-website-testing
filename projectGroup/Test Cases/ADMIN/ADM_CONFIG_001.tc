@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>change web logo</description>
+   <name>ADM_CONFIG_001</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e82aeef5-f264-4242-b0b4-5d2b921f5f76</testCaseGuid>
+</TestCaseEntity>

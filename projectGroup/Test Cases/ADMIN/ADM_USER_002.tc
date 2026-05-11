@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edit user information, name, phone number</description>
+   <name>ADM_USER_002</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1aa1460-cedb-439a-a038-58af1db481dd</testCaseGuid>
+</TestCaseEntity>
