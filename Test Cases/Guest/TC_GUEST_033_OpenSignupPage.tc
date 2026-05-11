@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GUEST_033_OpenSignupPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a06a3674-6df6-432b-be5e-282f371c5d07</testCaseGuid>
+</TestCaseEntity>

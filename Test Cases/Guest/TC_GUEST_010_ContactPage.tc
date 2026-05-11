@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GUEST_010_ContactPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6bd06713-a806-40a6-9d70-aebeb482c2fd</testCaseGuid>
+</TestCaseEntity>

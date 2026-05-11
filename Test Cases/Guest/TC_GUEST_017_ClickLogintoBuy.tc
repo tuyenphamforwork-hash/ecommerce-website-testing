@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GUEST_017_ClickLogintoBuy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>655b504c-9a7c-46b3-9bf7-107e807eb8f5</testCaseGuid>
+</TestCaseEntity>

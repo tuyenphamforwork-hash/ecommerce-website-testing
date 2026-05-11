@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GUEST_023_ClickLogo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>46367d55-8991-40bf-9ec4-c51f8968b3da</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Guest_001_OpenHomepage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ccb2ce9-852c-4e40-9fa5-479fb7e46ceb</testCaseGuid>
+</TestCaseEntity>

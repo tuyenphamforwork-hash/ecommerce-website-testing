@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_LOGIN_001_OpenLoginPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>679357de-8a05-45ec-bfdd-cb5e44dee1f5</testCaseGuid>
+</TestCaseEntity>

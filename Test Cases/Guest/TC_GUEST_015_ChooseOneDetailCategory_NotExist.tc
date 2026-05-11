@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GUEST_015_ChooseOneDetailCategory_NotExist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eac4368a-5f9b-4566-93be-b7dcae978f2b</testCaseGuid>
+</TestCaseEntity>

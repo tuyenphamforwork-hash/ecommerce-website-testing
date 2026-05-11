@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GUEST_026_ClickCartNoLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d51ed665-03aa-4de7-a6e7-0cf95bfe3526</testCaseGuid>
+</TestCaseEntity>

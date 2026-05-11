@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GUEST_037_SignUp_ValidSignUp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f07132d8-1e33-405d-8f21-3a320dd6708c</testCaseGuid>
+</TestCaseEntity>

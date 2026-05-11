@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GUEST_028_RefreshPageAfterSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2a33265-2778-4e05-9c6a-100144f32a2d</testCaseGuid>
+</TestCaseEntity>
