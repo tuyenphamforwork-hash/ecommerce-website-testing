@@ -23,10 +23,10 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.verifyElementNotPresent(findTestObject('Guest/Homepage/menu_profile'), 0)
+WebUI.verifyElementNotPresent(findTestObject('GUEST/Homepage/menu_profile'), 0)
 
 // PHẢI có LoginToAdd
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/menu_login'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/menu_login'), 10)
 
 WebUI.closeBrowser()
 

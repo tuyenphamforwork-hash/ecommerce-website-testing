@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_CART_RefreshAfterUpdate</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7c4cce47-a47e-48f3-8261-b73182f2e2e7</testCaseGuid>
+</TestCaseEntity>

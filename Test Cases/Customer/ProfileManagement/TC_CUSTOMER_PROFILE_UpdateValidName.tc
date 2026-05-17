@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_PROFILE_UpdateValidName</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>16bb59cd-23ff-4066-b184-f2e360743305</testCaseGuid>
+</TestCaseEntity>

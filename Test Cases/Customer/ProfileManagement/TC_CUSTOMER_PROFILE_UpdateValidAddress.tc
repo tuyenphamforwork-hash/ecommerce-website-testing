@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_PROFILE_UpdateValidAddress</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>26b16aa8-e059-4c42-85df-070d81757bd3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_CHECKOUT_BuyNow</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>60d87617-8844-4d4b-ada8-43ac2a83b9f8</testCaseGuid>
+</TestCaseEntity>

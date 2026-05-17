@@ -23,9 +23,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.click(findTestObject('Guest/Homepage/menu_Mens'))
+WebUI.click(findTestObject('GUEST/Homepage/menu_Mens'))
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/page_men'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/page_men'), 10)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_LOGIN_EmptyEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2b2c6afa-61f3-4c9c-a12a-760eb18aa52a</testCaseGuid>
+</TestCaseEntity>

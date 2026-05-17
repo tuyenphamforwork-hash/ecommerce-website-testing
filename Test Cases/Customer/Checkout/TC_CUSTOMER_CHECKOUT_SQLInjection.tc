@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_CHECKOUT_SQLInjection</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f5fa9e37-0aa4-4ef2-ad13-40df288b73e9</testCaseGuid>
+</TestCaseEntity>

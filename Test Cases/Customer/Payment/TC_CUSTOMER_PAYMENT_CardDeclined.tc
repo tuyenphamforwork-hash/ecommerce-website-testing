@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_PAYMENT_CardDeclined</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>947a577e-7579-4ee0-a71b-0c7389c25a63</testCaseGuid>
+</TestCaseEntity>

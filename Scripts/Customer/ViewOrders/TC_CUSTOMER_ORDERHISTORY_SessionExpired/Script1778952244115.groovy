@@ -1,0 +1,87 @@
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+// ========================================
+// Navigate To Login Page
+// ========================================
+WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
+
+// ========================================
+// Login
+// ========================================
+WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_email'), 'customer2@gmail.com')
+
+WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_password'), 'Customer@123456')
+
+WebUI.click(findTestObject('CUSTOMER/Page_Login(USER)/btn_Sign in'))
+
+// ========================================
+// Verify Login Successful
+// ========================================
+WebUI.verifyElementPresent(findTestObject('CUSTOMER/HomePage/btn_menu_profile'), 10)
+
+// ========================================
+// Open Order History
+// ========================================
+WebUI.click(findTestObject('CUSTOMER/HomePage/btn_menu_profile'))
+
+WebUI.delay(3)
+
+// ========================================
+// Verify Order History Displayed
+// ========================================
+WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/div_OrderHistory'), 10)
+
+// ========================================
+// Simulate Session Expiration
+// ========================================
+// Delete all cookies/session
+WebUI.deleteAllCookies()
+
+// ========================================
+// Refresh Browser
+// ========================================
+WebUI.refresh()
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/menu_login'), 0)
+
+// ========================================
+// Verify Redirected To Login Page
+// ========================================
+WebUI.verifyElementNotPresent(findTestObject('CUSTOMER/HomePage/btn_menu_profile'), 10)
+
+// ========================================
+// Verify Order History No Longer Accessible
+// ========================================
+WebUI.verifyElementNotPresent(findTestObject('CUSTOMER/Order_History/div_OrderHistory'), 0)
+
+// ========================================
+// Verify User Session Expired
+// ========================================
+WebUI.verifyTextPresent('LOGIN', false)
+
+// ========================================
+// Close Browser
+// ========================================
+WebUI.closeBrowser()
+

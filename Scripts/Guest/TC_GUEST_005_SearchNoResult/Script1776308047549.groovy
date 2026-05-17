@@ -23,13 +23,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.setText(findTestObject('Guest/Homepage/txtbox_search'), 'abcxyz123')
+WebUI.setText(findTestObject('GUEST/Homepage/txtbox_search'), 'abcxyz123')
 
-WebUI.sendKeys(findTestObject('Guest/Homepage/txtbox_search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('GUEST/Homepage/txtbox_search'), Keys.chord(Keys.ENTER))
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/textview_search_choosed_item'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/textview_search_choosed_item'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/msg_NoRecordFound'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/msg_NoRecordFound'), 10)
 
 WebUI.closeBrowser()
 

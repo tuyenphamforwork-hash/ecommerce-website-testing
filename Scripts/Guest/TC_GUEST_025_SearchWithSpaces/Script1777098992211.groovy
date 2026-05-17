@@ -23,11 +23,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.setText(findTestObject('Guest/Homepage/txtbox_search'), '     shirt     ')
+WebUI.setText(findTestObject('GUEST/Homepage/txtbox_search'), '     shirt     ')
 
-WebUI.sendKeys(findTestObject('Guest/Homepage/txtbox_search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('GUEST/Homepage/txtbox_search'), Keys.chord(Keys.ENTER))
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/list_items_filtered_search'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/list_items_filtered_search'), 10)
 
 WebUI.closeBrowser()
 

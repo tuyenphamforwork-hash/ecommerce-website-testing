@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_PAYMENT_ExpiredCard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e4a53f1-0a60-4d6b-aae5-32d9df3b2471</testCaseGuid>
+</TestCaseEntity>

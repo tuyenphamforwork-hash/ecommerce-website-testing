@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_edit</name>
+   <tag></tag>
+   <elementGuidId>99938ab9-003f-4951-839c-1d62caa6e16e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-edit</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>d29c2c24-8f6a-4bdc-9033-30cd9bb1fe10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-edit</value>
+      <webElementGuid>e386feb5-9e7a-4548-b9a5-d6c98a3a0aba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;table-cont&quot;]/table[@class=&quot;table&quot;]/tbody[@class=&quot;table-group-divider&quot;]/tr[1]/td[5]/a[@class=&quot;fn_link&quot;]/i[@class=&quot;fa fa-edit&quot;]</value>
+      <webElementGuid>873000b2-5be2-487d-8db2-1f73b021d164</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>67730a3b-0ed9-484b-8e2a-73fe205de56e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

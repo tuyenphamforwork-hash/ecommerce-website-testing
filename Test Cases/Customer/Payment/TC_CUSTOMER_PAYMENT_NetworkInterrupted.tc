@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_PAYMENT_NetworkInterrupted</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>13deeea3-47a3-4243-b7e3-616f90d51610</testCaseGuid>
+</TestCaseEntity>

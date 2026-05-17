@@ -25,28 +25,65 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 // STEP 2: Open Login page
-WebUI.click(findTestObject('Guest/Homepage/menu_login'))
+WebUI.click(findTestObject('GUEST/Homepage/menu_login'))
 
 // STEP 3: Open Signup page
-WebUI.click(findTestObject('Guest/Page_Login(USER)/btn_Signup'))
+WebUI.click(findTestObject('GUEST/Page_Login(USER)/btn_Signup'))
 
 // STEP 4: Verify Signup page displayed
-WebUI.verifyElementPresent(findTestObject('Guest/Page_HCA E-Commerce/button_Register'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Page_HCA E-Commerce/button_Register'), 10)
 
 // STEP 5: Input signup information
-WebUI.setText(findTestObject('Guest/Page_HCA E-Commerce/TextBox_FullName'), 'Customer1')
+WebUI.setText(findTestObject('GUEST/Page_HCA E-Commerce/TextBox_FullName'), 'Customer1')
 
-WebUI.setText(findTestObject('Guest/Page_HCA E-Commerce/TextBox_PhoneNumber'), '+84 768456754')
+WebUI.setText(findTestObject('GUEST/Page_HCA E-Commerce/TextBox_PhoneNumber'), '+84 768456754')
 
-WebUI.setText(findTestObject('Guest/Page_HCA E-Commerce/TextBox_Email'), 'customer1@gmail.com')
+WebUI.setText(findTestObject('GUEST/Page_HCA E-Commerce/TextBox_Email'), 'customer1@gmail.com')
 
-WebUI.setText(findTestObject('Guest/Page_HCA E-Commerce/TextBox_Address'), '1234 Main St')
+WebUI.setText(findTestObject('GUEST/Page_HCA E-Commerce/TextBox_Address'), '1234 Main St')
 
-WebUI.setText(findTestObject('Guest/Page_HCA E-Commerce/TextBox_Password'), 'Customer1')
+WebUI.setText(findTestObject('GUEST/Page_HCA E-Commerce/TextBox_Password'), 'Customer1')
 
 // Different confirm password
-WebUI.setText(findTestObject('Guest/Page_HCA E-Commerce/TextBox_ConfirmPassword'), 'Customer1')
+WebUI.setText(findTestObject('GUEST/Page_HCA E-Commerce/TextBox_ConfirmPassword'), 'Customer1')
 
 // STEP 6: Click Register
-WebUI.click(findTestObject('Guest/Page_HCA E-Commerce/button_Register'))
+WebUI.click(findTestObject('GUEST/Page_HCA E-Commerce/button_Register'))
 
+// STEP 7: Verify signup success
+String currentUrl = WebUI.getUrl()
+
+WebUI.comment('Current URL: ' + currentUrl)
+
+// Expected:
+// - Redirect homepage
+// - OR user logged in
+boolean isHomepage =
+	currentUrl == GlobalVariable.baseUrl ||
+	currentUrl.contains('index')
+
+boolean isUserLoggedIn =
+	WebUI.verifyElementPresent(
+		findTestObject('Customer/Homepage/menu_profile'),
+		5,
+		FailureHandling.OPTIONAL
+	)
+
+boolean isSignupSuccess = isHomepage || isUserLoggedIn
+
+// STEP 8: Handle fail case
+if (!(isSignupSuccess)) {
+
+	WebUI.takeScreenshot()
+
+	WebUI.comment('❌ BUG: Signup failed or redirect incorrect')
+}
+
+// FINAL VERIFY
+WebUI.verifyEqual(
+	isSignupSuccess,
+	true,
+	FailureHandling.CONTINUE_ON_FAILURE
+)
+
+WebUI.closeBrowser()

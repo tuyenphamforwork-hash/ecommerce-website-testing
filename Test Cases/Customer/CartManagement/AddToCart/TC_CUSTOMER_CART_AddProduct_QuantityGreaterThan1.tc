@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_CART_AddProduct_QuantityGreaterThan1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>25cdab7c-b9f5-4d04-9145-b2a2f9c45976</testCaseGuid>
+</TestCaseEntity>

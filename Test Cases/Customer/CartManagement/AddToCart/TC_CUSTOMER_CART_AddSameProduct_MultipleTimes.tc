@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_CART_AddSameProduct_MultipleTimes</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f4e2f793-1f54-42f5-a245-d3fa3377e44f</testCaseGuid>
+</TestCaseEntity>

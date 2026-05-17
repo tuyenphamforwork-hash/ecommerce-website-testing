@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_PROFILE_UpdateAllFields</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>66cdac8d-ab24-494c-8d0f-d89eb7f19ea6</testCaseGuid>
+</TestCaseEntity>

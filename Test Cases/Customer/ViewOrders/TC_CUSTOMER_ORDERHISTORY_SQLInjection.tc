@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_ORDERHISTORY_SQLInjection</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d1fdd75-0d50-46ed-a16f-daf6129343ec</testCaseGuid>
+</TestCaseEntity>

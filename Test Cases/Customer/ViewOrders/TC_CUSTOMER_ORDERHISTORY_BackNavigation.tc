@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_ORDERHISTORY_BackNavigation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c22733bc-dc5a-4973-a1b2-817427200f15</testCaseGuid>
+</TestCaseEntity>

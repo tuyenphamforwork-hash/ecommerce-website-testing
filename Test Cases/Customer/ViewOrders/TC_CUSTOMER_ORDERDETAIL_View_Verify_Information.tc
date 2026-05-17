@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_ORDERDETAIL_View_Verify_Information</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69c5bf0d-f05e-4fa5-830a-85087776be59</testCaseGuid>
+</TestCaseEntity>

@@ -23,9 +23,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/checkout.php')
 
-WebUI.verifyElementPresent(findTestObject('Guest/Page_Login(USER)/Login_form'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Page_Login(USER)/Login_form'), 10)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Page_Login(USER)/msg_RequireLoginToCheckout'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Page_Login(USER)/msg_RequireLoginToCheckout'), 0)
 
 WebUI.closeBrowser()
 

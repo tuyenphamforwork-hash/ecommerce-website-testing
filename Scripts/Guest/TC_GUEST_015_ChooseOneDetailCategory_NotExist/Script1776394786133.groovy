@@ -23,13 +23,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.click(findTestObject('Guest/Homepage/btn_Footwear'))
+WebUI.click(findTestObject('GUEST/Homepage/btn_Footwear'))
 
-WebUI.click(findTestObject('Guest/Homepage/btn_SafetyShoes'))
+WebUI.click(findTestObject('GUEST/Homepage/btn_SafetyShoes'))
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/textview_search_choosed_item'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/textview_search_choosed_item'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/msg_NoRecordFound'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/msg_NoRecordFound'), 0)
 
 WebUI.closeBrowser()
 

@@ -1,41 +1,26 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
 
 WebUI.openBrowser('')
+
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.baseUrl)
+WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
 
-// Search lower case
-WebUI.setText(findTestObject('Guest/Homepage/txtbox_search'), 'men shirt')
-WebUI.sendKeys(findTestObject('Guest/Homepage/txtbox_search'), Keys.chord(Keys.ENTER))
-boolean lowerResult = WebUI.verifyElementPresent(
-	findTestObject('Guest/Page_HCA E-Commerce/div_Search_MultipleKeywords'),
-	10,
-	FailureHandling.OPTIONAL
-)
+WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_email'), 'customer1')
 
-// Search upper case
-WebUI.navigateToUrl(GlobalVariable.baseUrl)
+WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_password'), 'Customer1')
 
-WebUI.setText(findTestObject('Guest/Homepage/txtbox_search'), 'Men Shirt')
-WebUI.sendKeys(findTestObject('Guest/Homepage/txtbox_search'), Keys.chord(Keys.ENTER))
-boolean upperResult = WebUI.verifyElementPresent(
-	findTestObject('Guest/Page_HCA E-Commerce/div_Search_MultipleKeywords'),
-	10,
-	FailureHandling.OPTIONAL
-)
+WebUI.click(findTestObject('CUSTOMER/Page_Login(USER)/btn_Sign in'))
 
-boolean isValid = (lowerResult == upperResult)
+String validationMessage = WebUI.getAttribute(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_email'), 'validationMessage')
 
-if (!isValid) {
-	WebUI.takeScreenshot()
-	WebUI.comment("❌ BUG: Search bị phân biệt hoa thường")
-}
+println('Validation message: ' + validationMessage)
 
-WebUI.verifyEqual(isValid, true, FailureHandling.CONTINUE_ON_FAILURE)
+assert validationMessage.contains('include an \'@\'')
+
+assert validationMessage.contains('customer1')
 
 WebUI.closeBrowser()
+

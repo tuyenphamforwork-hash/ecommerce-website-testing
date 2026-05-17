@@ -24,13 +24,13 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 // để trống search
-WebUI.setText(findTestObject('Guest/Homepage/txtbox_search'), '')
-WebUI.sendKeys(findTestObject('Guest/Homepage/txtbox_search'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('GUEST/Homepage/txtbox_search'), '')
+WebUI.sendKeys(findTestObject('GUEST/Homepage/txtbox_search'), Keys.chord(Keys.ENTER))
 
 // Expected: vẫn ở homepage hoặc không crash
 WebUI.verifyMatch(WebUI.getUrl(), '.*E-Commerce.*', true)
 
 // Optional: không có kết quả hoặc không reload
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/txtbox_search'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/txtbox_search'), 10)
 
 WebUI.closeBrowser()

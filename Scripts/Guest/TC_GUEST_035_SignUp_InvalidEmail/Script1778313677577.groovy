@@ -28,54 +28,54 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 // STEP 2: Open Login page
-WebUI.click(findTestObject('Guest/Homepage/menu_login'))
+WebUI.click(findTestObject('GUEST/Homepage/menu_login'))
 
 // STEP 3: Open Signup page
-WebUI.click(findTestObject('Guest/Page_Login(USER)/btn_Signup'))
+WebUI.click(findTestObject('GUEST/Page_Login(USER)/btn_Signup'))
 
 // STEP 4: Verify Register button displayed
 WebUI.verifyElementPresent(
-	findTestObject('Guest/Page_HCA E-Commerce/button_Register'),
+	findTestObject('GUEST/Page_HCA E-Commerce/button_Register'),
 	10
 )
 
 // STEP 5: Input signup information
 WebUI.setText(
-	findTestObject('Guest/Page_HCA E-Commerce/TextBox_FullName'),
+	findTestObject('GUEST/Page_HCA E-Commerce/TextBox_FullName'),
 	'Customer1'
 )
 
 WebUI.setText(
-	findTestObject('Guest/Page_HCA E-Commerce/TextBox_PhoneNumber'),
+	findTestObject('GUEST/Page_HCA E-Commerce/TextBox_PhoneNumber'),
 	'0965534564'
 )
 
 WebUI.setText(
-	findTestObject('Guest/Page_HCA E-Commerce/TextBox_Email'),
+	findTestObject('GUEST/Page_HCA E-Commerce/TextBox_Email'),
 	'customer1'
 )
 
 WebUI.setText(
-	findTestObject('Guest/Page_HCA E-Commerce/TextBox_Address'),
+	findTestObject('GUEST/Page_HCA E-Commerce/TextBox_Address'),
 	'1234 Main St'
 )
 
 WebUI.setText(
-	findTestObject('Guest/Page_HCA E-Commerce/TextBox_Password'),
+	findTestObject('GUEST/Page_HCA E-Commerce/TextBox_Password'),
 	'Customer1'
 )
 
 WebUI.setText(
-	findTestObject('Guest/Page_HCA E-Commerce/TextBox_ConfirmPassword'),
+	findTestObject('GUEST/Page_HCA E-Commerce/TextBox_ConfirmPassword'),
 	'Customer1'
 )
 
 // STEP 6: Click Register
-WebUI.click(findTestObject('Guest/Page_HCA E-Commerce/button_Register'))
+WebUI.click(findTestObject('GUEST/Page_HCA E-Commerce/button_Register'))
 
 // STEP 7: Get HTML5 validation message
 String validationMessage = WebUI.getAttribute(
-	findTestObject('Guest/Page_HCA E-Commerce/TextBox_Email'),
+	findTestObject('GUEST/Page_HCA E-Commerce/TextBox_Email'),
 	'validationMessage'
 )
 

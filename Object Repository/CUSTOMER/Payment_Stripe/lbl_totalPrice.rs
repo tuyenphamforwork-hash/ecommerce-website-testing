@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_totalPrice</name>
+   <tag></tag>
+   <elementGuidId>4149d86d-0704-46a3-8d13-af4c779923dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/button/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.Button.CurrencyOptionButton.is-active.Button--primary.Button--md > div.flex-container.justify-content-flex-start.align-items-center > div.CurrencyOptionButton-labelContainer.flex-container.direction-row > span.CurrencyAmount</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>42739cbb-ffab-45e6-a515-37e9c1b5ffc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>CurrencyAmount</value>
+      <webElementGuid>af85b2b8-58ad-47b4-ae55-5938cc01835b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$96.00</value>
+      <webElementGuid>9a31222d-ddb9-4c2b-89f6-1146addf9224</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App-Container local-default-background flex-container justify-content-center&quot;]/div[@class=&quot;App&quot;]/div[@class=&quot;App-Overview&quot;]/div[@class=&quot;OrderSummaryColumn&quot;]/div[@class=&quot;ProductSummary no-image&quot;]/div[@class=&quot;ProductSummary-info&quot;]/div[@class=&quot;ProductSummary-amountsContainer automaticCurrencyConversion&quot;]/div[@class=&quot;ProductSummary-totalsRead&quot;]/div[@class=&quot;y_2oozf-__AutomaticCurrencyConversionDetails flex-container direction-column&quot;]/div[@class=&quot;RjXeH__v__AutomaticCurrencyConversionDetails-toggleGroupWithNone&quot;]/div[@class=&quot;ict8NAW9__SideToSideCurrencyToggle-innerContainer flex-container direction-column&quot;]/div[@class=&quot;flex-item width-grow flex-item-no-padding&quot;]/div[@class=&quot;DJlid5F1__SideToSideCurrencyToggle-toggles flex-container wrap-wrap&quot;]/div[@class=&quot;TtBogqpI__SideToSideCurrencyToggle-toggle flex-item width-grow&quot;]/button[@class=&quot;Button CurrencyOptionButton is-active Button--primary Button--md&quot;]/div[@class=&quot;flex-container justify-content-flex-start align-items-center&quot;]/div[@class=&quot;CurrencyOptionButton-labelContainer flex-container direction-row&quot;]/span[@class=&quot;CurrencyAmount&quot;]</value>
+      <webElementGuid>5dd6a400-d635-4405-a9d2-04cdaf322331</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/button/div/div/span</value>
+      <webElementGuid>45d654c2-a69f-4e7c-81cb-181ce9c4487d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₫2,631,225'])[1]/following::span[1]</value>
+      <webElementGuid>d76b765e-5f57-4e29-8b1a-982478c3f331</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose a currency:'])[1]/following::span[2]</value>
+      <webElementGuid>21f7c4c7-0287-4026-8deb-813f0b80b2aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exchange rate and fees of your bank may apply'])[1]/preceding::span[1]</value>
+      <webElementGuid>0ba86553-4659-4b52-8b25-5d49e0e7708b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jacket'])[1]/preceding::span[2]</value>
+      <webElementGuid>582fc7d0-acf0-42bb-bb2b-5dd35f6d92f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$96.00']/parent::*</value>
+      <webElementGuid>79ce68a2-1d8e-40d5-982f-8ca46ea88ebe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/div/div/span</value>
+      <webElementGuid>422655fb-aa57-4a04-bcec-6df3fcd9d191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '$96.00' or . = '$96.00')]</value>
+      <webElementGuid>f6114920-236d-46a5-8279-b483e89ecda1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

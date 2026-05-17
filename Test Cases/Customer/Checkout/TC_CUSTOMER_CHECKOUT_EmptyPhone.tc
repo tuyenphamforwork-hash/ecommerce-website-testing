@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_CHECKOUT_EmptyPhone</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b841b692-e6bc-4bd8-98fb-fdb6338ad9b3</testCaseGuid>
+</TestCaseEntity>

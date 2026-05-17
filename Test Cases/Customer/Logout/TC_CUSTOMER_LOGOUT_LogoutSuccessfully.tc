@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_LOGOUT_LogoutSuccessfully</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cf1c183d-46c3-4132-ba24-cc5b7a374b3e</testCaseGuid>
+</TestCaseEntity>

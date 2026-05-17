@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtview_itemsInformation</name>
+   <tag></tag>
+   <elementGuidId>2733c5ed-428a-4574-a30e-2f38d6619ee3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='orderDetailsBody']/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#orderDetailsBody > ul > li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>d66f53ef-4fc1-4df4-b75e-587ab2a997ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>jacket - Qty: 1 - $48.00</value>
+      <webElementGuid>f037ae15-c1ee-4b2d-9625-ac498da613d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;orderDetailsBody&quot;)/ul[1]/li[1]</value>
+      <webElementGuid>5fae17ad-435d-4bf5-abf5-fc531caf0ccb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='orderDetailsBody']/ul/li</value>
+      <webElementGuid>d668747d-b063-41b9-9885-3f7fb3291431</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Items:'])[1]/following::li[1]</value>
+      <webElementGuid>bcfa70b2-e309-480b-9d9d-ebd411d65b0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date:'])[1]/following::li[1]</value>
+      <webElementGuid>b9659496-7743-4198-8d6a-dd0a9b613234</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::li[1]</value>
+      <webElementGuid>d6e0b403-5779-4e80-ac10-343c378a2cd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brand directory'])[1]/preceding::li[1]</value>
+      <webElementGuid>df3c493e-2c7f-440b-a9aa-58005d5bf360</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='jacket - Qty: 1 - $48.00']/parent::*</value>
+      <webElementGuid>33a0b890-c512-4aa2-afca-35820e3cfa68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/ul/li</value>
+      <webElementGuid>75e039e0-9be6-4e50-a0cf-a9ed31fa3e24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'jacket - Qty: 1 - $48.00' or . = 'jacket - Qty: 1 - $48.00')]</value>
+      <webElementGuid>4b3ca91a-4043-4794-b06b-5dc03a9cb1d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

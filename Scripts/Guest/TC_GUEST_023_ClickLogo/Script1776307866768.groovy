@@ -20,7 +20,7 @@ WebUI.openBrowser('http://localhost:81/Project/E-Commerce')
 WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/about.php')
 
-WebUI.click(findTestObject('Guest/Homepage/logo_BRAND'))
+WebUI.click(findTestObject('GUEST/Homepage/logo_BRAND'))
 
 WebUI.verifyMatch(WebUI.getUrl(), '.*E-Commerce.*', true)
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_CART_AddProduct_NegativeQuantity</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e29b4cb3-bfd9-4480-94f2-4f997ad7236b</testCaseGuid>
+</TestCaseEntity>

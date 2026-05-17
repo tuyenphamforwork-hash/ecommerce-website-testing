@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_payment_stripe</name>
+   <tag></tag>
+   <elementGuidId>859d76ec-c081-430f-a894-bc70fe816100</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.App</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a66398a6-0dc6-4030-93af-0c4b67c8538e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>App</value>
+      <webElementGuid>876d36a8-086a-4350-a5e8-6449d78718a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BackTuyen Pham sandboxSandboxChoose a currency:₫1,315,581$48.001 USD = 27,407.9375 VNDjacket₫1,315,581OrContact informationEmailcustomer2@gmail.comPayment methodCardCard informationCredit or debit card CVCCardholder nameCountry or regionAfghanistanÅland IslandsAlbaniaAlgeriaAndorraAngolaAnguillaAntarcticaAntigua &amp; BarbudaArgentinaArmeniaArubaAscension IslandAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBosnia &amp; HerzegovinaBotswanaBouvet IslandBrazilBritish Indian Ocean TerritoryBritish Virgin IslandsBruneiBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCaribbean NetherlandsCayman IslandsCentral African RepublicChadChileChinaColombiaComorosCongo - BrazzavilleCongo - KinshasaCook IslandsCosta RicaCôte d’IvoireCroatiaCuraçaoCyprusCzechiaDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEswatiniEthiopiaFalkland IslandsFaroe IslandsFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea-BissauGuyanaHaitiHondurasHong Kong SAR ChinaHungaryIcelandIndiaIndonesiaIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacao SAR ChinaMadagascarMalawiMalaysiaMaldivesMaliMaltaMartiniqueMauritaniaMauritiusMayotteMexicoMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmar (Burma)NamibiaNauruNepalNetherlandsNew CaledoniaNew ZealandNicaraguaNigerNigeriaNiueNorth MacedoniaNorwayOmanPakistanPalestinian TerritoriesPanamaPapua New GuineaParaguayPeruPhilippinesPitcairn IslandsPolandPortugalPuerto RicoQatarRéunionRomaniaRussiaRwandaSamoaSan MarinoSão Tomé &amp; PríncipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSint MaartenSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia &amp; South Sandwich IslandsSouth KoreaSouth SudanSpainSri LankaSt. BarthélemySt. HelenaSt. Kitts &amp; NevisSt. LuciaSt. MartinSt. Pierre &amp; MiquelonSt. Vincent &amp; GrenadinesSudanSurinameSvalbard &amp; Jan MayenSwedenSwitzerlandTaiwanTajikistanTanzaniaThailandTimor-LesteTogoTokelauTongaTrinidad &amp; TobagoTristan da CunhaTunisiaTurkeyTurkmenistanTurks &amp; Caicos IslandsTuvaluUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVatican CityVenezuelaVietnamWallis &amp; FutunaWestern SaharaYemenZambiaZimbabweSave my information for faster checkoutPay securely at Tuyen Pham sandbox and everywhere Link is accepted.PayProcessingI am an AI agent acting on behalf of someone elsePowered by StripeTermsPrivacy</value>
+      <webElementGuid>becb37ff-097c-4555-b3c9-a34ed5ee4c08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App-Container local-default-background flex-container justify-content-center&quot;]/div[@class=&quot;App&quot;]</value>
+      <webElementGuid>3a8053fb-5c66-4d83-838f-2be3115ac492</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div</value>
+      <webElementGuid>eefd7ac4-0d1d-4bd1-8af1-953aa3a8895a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>6c4aa36f-4fbc-4b83-a505-45a112be5624</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'BackTuyen Pham sandboxSandboxChoose a currency:₫1,315,581$48.001 USD = 27,407.9375 VNDjacket₫1,315,581OrContact informationEmailcustomer2@gmail.comPayment methodCardCard informationCredit or debit card CVCCardholder nameCountry or regionAfghanistanÅland IslandsAlbaniaAlgeriaAndorraAngolaAnguillaAntarcticaAntigua &amp; BarbudaArgentinaArmeniaArubaAscension IslandAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBosnia &amp; HerzegovinaBotswanaBouvet IslandBrazilBritish Indian Ocean TerritoryBritish Virgin IslandsBruneiBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCaribbean NetherlandsCayman IslandsCentral African RepublicChadChileChinaColombiaComorosCongo - BrazzavilleCongo - KinshasaCook IslandsCosta RicaCôte d’IvoireCroatiaCuraçaoCyprusCzechiaDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEswatiniEthiopiaFalkland IslandsFaroe IslandsFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea-BissauGuyanaHaitiHondurasHong Kong SAR ChinaHungaryIcelandIndiaIndonesiaIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacao SAR ChinaMadagascarMalawiMalaysiaMaldivesMaliMaltaMartiniqueMauritaniaMauritiusMayotteMexicoMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmar (Burma)NamibiaNauruNepalNetherlandsNew CaledoniaNew ZealandNicaraguaNigerNigeriaNiueNorth MacedoniaNorwayOmanPakistanPalestinian TerritoriesPanamaPapua New GuineaParaguayPeruPhilippinesPitcairn IslandsPolandPortugalPuerto RicoQatarRéunionRomaniaRussiaRwandaSamoaSan MarinoSão Tomé &amp; PríncipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSint MaartenSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia &amp; South Sandwich IslandsSouth KoreaSouth SudanSpainSri LankaSt. BarthélemySt. HelenaSt. Kitts &amp; NevisSt. LuciaSt. MartinSt. Pierre &amp; MiquelonSt. Vincent &amp; GrenadinesSudanSurinameSvalbard &amp; Jan MayenSwedenSwitzerlandTaiwanTajikistanTanzaniaThailandTimor-LesteTogoTokelauTongaTrinidad &amp; TobagoTristan da CunhaTunisiaTurkeyTurkmenistanTurks &amp; Caicos IslandsTuvaluUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVatican CityVenezuelaVietnamWallis &amp; FutunaWestern SaharaYemenZambiaZimbabweSave my information for faster checkoutPay securely at Tuyen Pham sandbox and everywhere Link is accepted.PayProcessingI am an AI agent acting on behalf of someone elsePowered by StripeTermsPrivacy' or . = 'BackTuyen Pham sandboxSandboxChoose a currency:₫1,315,581$48.001 USD = 27,407.9375 VNDjacket₫1,315,581OrContact informationEmailcustomer2@gmail.comPayment methodCardCard informationCredit or debit card CVCCardholder nameCountry or regionAfghanistanÅland IslandsAlbaniaAlgeriaAndorraAngolaAnguillaAntarcticaAntigua &amp; BarbudaArgentinaArmeniaArubaAscension IslandAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBosnia &amp; HerzegovinaBotswanaBouvet IslandBrazilBritish Indian Ocean TerritoryBritish Virgin IslandsBruneiBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCaribbean NetherlandsCayman IslandsCentral African RepublicChadChileChinaColombiaComorosCongo - BrazzavilleCongo - KinshasaCook IslandsCosta RicaCôte d’IvoireCroatiaCuraçaoCyprusCzechiaDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEswatiniEthiopiaFalkland IslandsFaroe IslandsFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea-BissauGuyanaHaitiHondurasHong Kong SAR ChinaHungaryIcelandIndiaIndonesiaIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacao SAR ChinaMadagascarMalawiMalaysiaMaldivesMaliMaltaMartiniqueMauritaniaMauritiusMayotteMexicoMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmar (Burma)NamibiaNauruNepalNetherlandsNew CaledoniaNew ZealandNicaraguaNigerNigeriaNiueNorth MacedoniaNorwayOmanPakistanPalestinian TerritoriesPanamaPapua New GuineaParaguayPeruPhilippinesPitcairn IslandsPolandPortugalPuerto RicoQatarRéunionRomaniaRussiaRwandaSamoaSan MarinoSão Tomé &amp; PríncipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSint MaartenSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia &amp; South Sandwich IslandsSouth KoreaSouth SudanSpainSri LankaSt. BarthélemySt. HelenaSt. Kitts &amp; NevisSt. LuciaSt. MartinSt. Pierre &amp; MiquelonSt. Vincent &amp; GrenadinesSudanSurinameSvalbard &amp; Jan MayenSwedenSwitzerlandTaiwanTajikistanTanzaniaThailandTimor-LesteTogoTokelauTongaTrinidad &amp; TobagoTristan da CunhaTunisiaTurkeyTurkmenistanTurks &amp; Caicos IslandsTuvaluUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVatican CityVenezuelaVietnamWallis &amp; FutunaWestern SaharaYemenZambiaZimbabweSave my information for faster checkoutPay securely at Tuyen Pham sandbox and everywhere Link is accepted.PayProcessingI am an AI agent acting on behalf of someone elsePowered by StripeTermsPrivacy')]</value>
+      <webElementGuid>5a3a18eb-23ea-48e0-b4e0-7eba1ca295cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

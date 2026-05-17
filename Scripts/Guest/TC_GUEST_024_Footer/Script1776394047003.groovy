@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/footer_session'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/footer_session'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

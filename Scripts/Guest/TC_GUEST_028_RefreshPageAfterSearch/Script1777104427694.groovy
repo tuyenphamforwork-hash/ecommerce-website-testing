@@ -14,11 +14,11 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 String keyword = 'men shirt'
 
-WebUI.setText(findTestObject('Guest/Homepage/txtbox_search'), keyword)
-WebUI.sendKeys(findTestObject('Guest/Homepage/txtbox_search'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('GUEST/Homepage/txtbox_search'), keyword)
+WebUI.sendKeys(findTestObject('GUEST/Homepage/txtbox_search'), Keys.chord(Keys.ENTER))
 
 boolean hasResultBefore = WebUI.verifyElementPresent(
-	findTestObject('Guest/Page_HCA E-Commerce/div_Search_MultipleKeywords'),
+	findTestObject('GUEST/Page_HCA E-Commerce/div_Search_MultipleKeywords'),
 	10,
 	FailureHandling.OPTIONAL
 )
@@ -33,7 +33,7 @@ WebUI.delay(2)
 String urlAfter = WebUI.getUrl()
 
 boolean hasResultAfter = WebUI.verifyElementPresent(
-	findTestObject('Guest/Page_HCA E-Commerce/div_Search_MultipleKeywords'),
+	findTestObject('GUEST/Page_HCA E-Commerce/div_Search_MultipleKeywords'),
 	10,
 	FailureHandling.OPTIONAL
 )

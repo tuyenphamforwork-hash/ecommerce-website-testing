@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>product_author</name>
+   <tag></tag>
+   <elementGuidId>ebdf6cec-c40a-4033-b6fa-6e4996ebf537</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(4)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='earrings'])[1]/following::td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>5c5dba56-ff68-4ae1-a241-0ced6fe3afae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FahadAdmin</value>
+      <webElementGuid>7f81b60b-478e-42d1-b6ef-e2c7ecde278c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;table-cont&quot;]/table[@class=&quot;table&quot;]/tbody[@class=&quot;table-group-divider&quot;]/tr[1]/td[4]</value>
+      <webElementGuid>473a8d4a-a8ed-4790-ad81-296f8b390014</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='earrings'])[1]/following::td[2]</value>
+      <webElementGuid>cefbedf1-997b-41ec-a0b7-f375646d5e6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gold earrings with sapphires - flowers - Victorian Collection'])[1]/following::td[3]</value>
+      <webElementGuid>0bf2ed4b-aed4-478d-b820-eb34184496cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='women'])[1]/preceding::td[4]</value>
+      <webElementGuid>039d385b-9188-4d7b-aa32-031b7e42df95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FahadAdmin'])[2]/preceding::td[6]</value>
+      <webElementGuid>a8e568f8-2c4a-4bc1-ad5d-d5a07e6c5272</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='FahadAdmin']/parent::*</value>
+      <webElementGuid>0dfa2a1a-d53c-4e6c-bd31-28eebc99d1d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]</value>
+      <webElementGuid>e24a7fef-f0be-4a1f-995a-88362fcd6b5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'FahadAdmin' or . = 'FahadAdmin')]</value>
+      <webElementGuid>d08de8f3-ffb4-4c72-ba14-7191c90c7952</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_save_phoneNumber</name>
+   <tag></tag>
+   <elementGuidId>bd656a20-89aa-47e3-b223-97be04a52b6f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@name='save'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.contact_edit.show > form > div.row.mb-3 > div.col > button[name=&quot;save&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>804dc5cc-64eb-4281-abd9-a36c04b4ca4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>b5e3f8d4-b008-457d-93db-23086e0f958b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>save</value>
+      <webElementGuid>ef60bb6c-373b-4f3d-8b0d-79fc427c66df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>0bad38f2-b054-41f1-b285-75c4a88fc0ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                      Save
+                    </value>
+      <webElementGuid>2b62df40-74fa-4344-99a8-0919d4aad97a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;hydrated&quot;]/body[1]/div[@class=&quot;container text-center card-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col d-flex justify-content-center&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;contact_edit show&quot;]/form[1]/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>5d8ca1f2-513a-4407-a041-948092874f7f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@name='save'])[3]</value>
+      <webElementGuid>eb9b9ad3-cfcb-4642-893c-a01230663573</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[3]/following::button[1]</value>
+      <webElementGuid>cc75d177-8954-4823-81be-98801df9cb8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Book'])[1]/following::button[1]</value>
+      <webElementGuid>b807217f-0023-408f-bc30-bbc4942c388e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order History'])[1]/preceding::button[1]</value>
+      <webElementGuid>69aebd18-786e-4f88-aec0-e8181bcf6dc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Details'])[1]/preceding::button[1]</value>
+      <webElementGuid>7ebe35dd-f57f-4f32-9229-1d23eacce7cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/form/div[2]/div/button</value>
+      <webElementGuid>ef17777d-c5ca-4d2c-a49b-630c6019b2d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @name = 'save' and (text() = '
+                      Save
+                    ' or . = '
+                      Save
+                    ')]</value>
+      <webElementGuid>b1932e78-60fa-49c2-a514-6eae2f4d48e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

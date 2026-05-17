@@ -13,23 +13,23 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 // STEP 2: Open Login page
-WebUI.click(findTestObject('Guest/Homepage/menu_login'))
+WebUI.click(findTestObject('GUEST/Homepage/menu_login'))
 
 // STEP 3: Open Signup page
-WebUI.click(findTestObject('Guest/Page_Login(USER)/btn_Signup'))
+WebUI.click(findTestObject('GUEST/Page_Login(USER)/btn_Signup'))
 
 // STEP 4: Verify Register button displayed
 WebUI.verifyElementPresent(
-	findTestObject('Guest/Page_HCA E-Commerce/button_Register'),
+	findTestObject('GUEST/Page_HCA E-Commerce/button_Register'),
 	10
 )
 
 // STEP 5: Click Register without entering data
-WebUI.click(findTestObject('Guest/Page_HCA E-Commerce/button_Register'))
+WebUI.click(findTestObject('GUEST/Page_HCA E-Commerce/button_Register'))
 
 // STEP 6: Get HTML5 validation message
 String validationMessage = WebUI.getAttribute(
-	findTestObject('Guest/Page_HCA E-Commerce/TextBox_FullName'),
+	findTestObject('GUEST/Page_HCA E-Commerce/TextBox_FullName'),
 	'validationMessage'
 )
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_LOGOUT_BackBrowserAfterLogout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c71cb81c-d78b-4e82-bedc-88a7be972a56</testCaseGuid>
+</TestCaseEntity>

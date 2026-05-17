@@ -23,33 +23,33 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.click(findTestObject('Guest/Homepage/prodcuct_card'))
+WebUI.click(findTestObject('GUEST/Homepage/prodcuct_card'))
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/txt_product_title'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/txt_product_title'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/product_name'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/product_name'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/product_img'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/product_img'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/detailed_product_price'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/detailed_product_price'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/product_desription'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/product_desription'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/product_rating'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/product_rating'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/product_quanntity'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/product_quanntity'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/btn_increase_product_quantity'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/btn_increase_product_quantity'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/btn_decrease_product_quantity'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/btn_decrease_product_quantity'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/btn_LoginToAdd'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/btn_LoginToAdd'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/btn_LoginToBuy'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/btn_LoginToBuy'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/CustomerReviews'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/CustomerReviews'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/div_Related_Products'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/div_Related_Products'), 0)
 
 WebUI.closeBrowser()
 

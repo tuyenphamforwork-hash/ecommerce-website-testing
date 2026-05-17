@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msg_PleaseFillAllFields</name>
+   <tag></tag>
+   <elementGuidId>c95b597b-bc99-440e-8ac2-d386e612300f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.error-ms</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9b1434a3-1efb-48a5-b2b8-64d48a93a650</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>error-ms</value>
+      <webElementGuid>ad9ac8c0-517d-4f67-866b-091c4d8bdf4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please fill all fields.</value>
+      <webElementGuid>74e6a1a2-4c26-475e-9651-975189977011</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;hydrated&quot;]/body[1]/div[@class=&quot;appointments-section&quot;]/div[@class=&quot;inner-appointment&quot;]/section[@class=&quot;edit-detail-field&quot;]/form[@class=&quot;Add-child-section&quot;]/div[@class=&quot;child-register-btn&quot;]/span[@class=&quot;error-ms&quot;]</value>
+      <webElementGuid>448142ac-4329-412a-ba17-367b4eb518c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::span[2]</value>
+      <webElementGuid>b5d942f0-9108-4f03-b3fa-d9dc7911ca50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::span[2]</value>
+      <webElementGuid>b35b0da2-d13b-46f1-98db-8a4b39aa2fd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceed To Pay'])[1]/preceding::span[1]</value>
+      <webElementGuid>da1d2096-9695-4da3-a6cf-3109d86e59ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brand directory'])[1]/preceding::span[1]</value>
+      <webElementGuid>da7acfe8-4cf2-412a-ae5f-cfdeb61284e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Please fill all fields.']/parent::*</value>
+      <webElementGuid>c75a8ef6-4475-4f5b-acfc-e461ae6d6199</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/span</value>
+      <webElementGuid>71e35b2b-ba8a-4d72-9d6e-6f8e2c01dd43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Please fill all fields.' or . = 'Please fill all fields.')]</value>
+      <webElementGuid>9bdef238-7305-4e2d-8d8a-3a1b740b0617</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ADMIN_AddProduct_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2262c464-fa3c-43a8-8377-6c75ab1c122a</testCaseGuid>
+</TestCaseEntity>

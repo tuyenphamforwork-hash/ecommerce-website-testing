@@ -23,11 +23,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.click(findTestObject('Guest/Homepage/prodcuct_card'))
+WebUI.click(findTestObject('GUEST/Homepage/prodcuct_card'))
 
-WebUI.click(findTestObject('Guest/Homepage/btn_LoginToAdd'))
+WebUI.click(findTestObject('GUEST/Homepage/btn_LoginToAdd'))
 
-WebUI.verifyElementPresent(findTestObject('Guest/Page_Login(USER)/Login_form'), 0)
+WebUI.verifyElementPresent(findTestObject('GUEST/Page_Login(USER)/Login_form'), 0)
 
 WebUI.closeBrowser()
 

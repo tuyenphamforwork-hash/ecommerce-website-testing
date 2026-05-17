@@ -23,17 +23,17 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.click(findTestObject('Guest/Homepage/menu_Contact'))
+WebUI.click(findTestObject('GUEST/Homepage/menu_Contact'))
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/mail_information'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/mail_information'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/Whatsapp_information'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/Whatsapp_information'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/Location_information'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/Location_information'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/map'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/map'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/btn_ViewLargerMap_Contact'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/btn_ViewLargerMap_Contact'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.back()
 

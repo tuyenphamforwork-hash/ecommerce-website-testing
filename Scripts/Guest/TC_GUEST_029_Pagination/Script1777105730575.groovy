@@ -10,21 +10,21 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 // Search để có nhiều page
-WebUI.setText(findTestObject('Guest/Homepage/txtbox_search'), 'shirt')
-WebUI.sendKeys(findTestObject('Guest/Homepage/txtbox_search'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('GUEST/Homepage/txtbox_search'), 'shirt')
+WebUI.sendKeys(findTestObject('GUEST/Homepage/txtbox_search'), Keys.chord(Keys.ENTER))
 
 String page1 = WebUI.getUrl()
 
 // Click Next
 boolean hasNext = WebUI.verifyElementPresent(
-	findTestObject('Guest/Page_HCA E-Commerce/pagination_next'),
+	findTestObject('GUEST/Page_HCA E-Commerce/pagination_next'),
 	5,
 	FailureHandling.OPTIONAL
 )
 
 if (hasNext) {
 
-	WebUI.click(findTestObject('Guest/Page_HCA E-Commerce/pagination_next'))
+	WebUI.click(findTestObject('GUEST/Page_HCA E-Commerce/pagination_next'))
 	WebUI.delay(2)
 
 	String page2 = WebUI.getUrl()
@@ -33,13 +33,13 @@ if (hasNext) {
 
 	// Click Previous
 	boolean hasPrev = WebUI.verifyElementPresent(
-		findTestObject('Guest/Page_HCA E-Commerce/pagination_prev'),
+		findTestObject('GUEST/Page_HCA E-Commerce/pagination_prev'),
 		5,
 		FailureHandling.OPTIONAL
 	)
 
 	if (hasPrev) {
-		WebUI.click(findTestObject('Guest/Page_HCA E-Commerce/pagination_prev'))
+		WebUI.click(findTestObject('GUEST/Page_HCA E-Commerce/pagination_prev'))
 		WebUI.delay(2)
 	}
 

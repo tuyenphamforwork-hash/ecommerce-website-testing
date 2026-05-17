@@ -23,12 +23,12 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.click(findTestObject('Guest/Homepage/prodcuct_card'))
+WebUI.click(findTestObject('GUEST/Homepage/prodcuct_card'))
 
-WebUI.verifyElementNotPresent(findTestObject('Guest/Homepage/Detail_Product/btn_Buy'), 0)
+WebUI.verifyElementNotPresent(findTestObject('GUEST/Homepage/Detail_Product/btn_Buy'), 0)
 
 // PHẢI có LoginToAdd
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/btn_LoginToBuy'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/btn_LoginToBuy'), 10)
 
 WebUI.closeBrowser()
 

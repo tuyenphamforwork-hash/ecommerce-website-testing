@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_delete</name>
+   <tag></tag>
+   <elementGuidId>6d6b9e20-024e-48c0-b079-5e6a74c74cae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-trash</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>c1f50fb1-032c-4fc6-92bb-910aeb720917</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-trash</value>
+      <webElementGuid>a808923b-4e10-4108-bdca-90a720ac93c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;table-cont&quot;]/table[@class=&quot;table&quot;]/tbody[@class=&quot;table-group-divider&quot;]/tr[1]/td[6]/a[@class=&quot;fn_link&quot;]/i[@class=&quot;fa fa-trash&quot;]</value>
+      <webElementGuid>7e7603eb-d6c9-461a-8a6c-03d5c4096a5d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/a/i</value>
+      <webElementGuid>4058da82-f921-4b8a-860a-b4df4fca37ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_CART_UpdateQuantity_Zero</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ad6059ab-c350-4cf3-8181-ef9e9fa62bf8</testCaseGuid>
+</TestCaseEntity>

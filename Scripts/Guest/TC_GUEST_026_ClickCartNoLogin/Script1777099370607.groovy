@@ -24,12 +24,12 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 // Click icon cart
-WebUI.click(findTestObject('Guest/Homepage/icon_cart'))
+WebUI.click(findTestObject('GUEST/Homepage/icon_cart'))
 
 // Verify message yêu cầu login
-WebUI.verifyElementPresent(findTestObject('Guest/Page_HCA E-Commerce/msg_LoginToViewCart'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Page_HCA E-Commerce/msg_LoginToViewCart'), 10)
 
-WebUI.verifyElementText(findTestObject('Guest/Page_HCA E-Commerce/msg_LoginToViewCart'), 'Please login to view cart')
+WebUI.verifyElementText(findTestObject('GUEST/Page_HCA E-Commerce/msg_LoginToViewCart'), 'Please login to view cart')
 
 WebUI.closeBrowser()
 

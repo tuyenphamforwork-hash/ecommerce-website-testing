@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_ORDERHISTORY_EmptyState</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>574650c5-9b1a-401b-9fa9-2ad55537a903</testCaseGuid>
+</TestCaseEntity>

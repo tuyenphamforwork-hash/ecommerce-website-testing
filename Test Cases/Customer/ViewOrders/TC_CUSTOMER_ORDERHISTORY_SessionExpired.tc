@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_ORDERHISTORY_SessionExpired</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0dd9e1aa-655c-4338-8a8b-4a2db4318bd0</testCaseGuid>
+</TestCaseEntity>

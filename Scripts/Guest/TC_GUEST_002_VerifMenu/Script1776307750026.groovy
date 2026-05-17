@@ -21,9 +21,9 @@ WebUI.openBrowser('http://localhost:81/Project/E-Commerce')
 WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/menu_Home'), 10)
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/menu_Mens'), 10)
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/menu_Womens'), 10)
-WebUI.verifyElementPresent(findTestObject('Guest/Homepage/menu_login'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/menu_Home'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/menu_Mens'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/menu_Womens'), 10)
+WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/menu_login'), 10)
 
 WebUI.closeBrowser()

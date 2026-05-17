@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CUSTOMER_CART_AddProduct_QuantityExceedsStock</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c4999823-a6a8-4c1e-a4e7-07a03d2bd0ee</testCaseGuid>
+</TestCaseEntity>
