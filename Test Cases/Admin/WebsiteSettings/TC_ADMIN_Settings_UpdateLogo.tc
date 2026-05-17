@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ADMIN_Settings_UpdateLogo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06af0466-f064-4897-ad49-04a87665e08f</testCaseGuid>
+</TestCaseEntity>

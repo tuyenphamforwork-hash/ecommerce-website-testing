@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ADMIN_AddProduct_EmptyFields_Image</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f5aee19-4f56-4ea1-829a-9194897b037b</testCaseGuid>
+</TestCaseEntity>

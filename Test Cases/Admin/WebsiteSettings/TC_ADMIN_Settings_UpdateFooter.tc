@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ADMIN_Settings_UpdateFooter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4980b9a5-caf6-4d0f-bd4c-ddc51edc363a</testCaseGuid>
+</TestCaseEntity>
