@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_GUEST_002_VerifMenu</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e9974d8d-0bd9-4a48-99ea-e6b6dacaa2cd</testCaseGuid>
-</TestCaseEntity>

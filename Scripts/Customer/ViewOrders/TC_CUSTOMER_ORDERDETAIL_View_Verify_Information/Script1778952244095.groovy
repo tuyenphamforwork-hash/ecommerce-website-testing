@@ -15,25 +15,16 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
-// =====================================================
-// TEST DATA
-// =====================================================
 def customer = [('firstName') : 'Customer', ('lastName') : 'Test', ('house') : '03', ('street') : 'Quang Trung', ('city') : 'Da Nang'
     , ('postcode') : '55000', ('country') : 'Vietnam', ('phone') : '0912345678', ('email') : 'customer2@gmail.com']
 
 String password = 'Customer@123456'
 
-// =====================================================
-// START TEST
-// =====================================================
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
 try {
-    // =================================================
-    // STEP 1: LOGIN
-    // =================================================
     WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
 
     WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_email'), customer.email)
@@ -44,9 +35,6 @@ try {
 
     WebUI.waitForElementVisible(findTestObject('CUSTOMER/HomePage/btn_menu_profile'), 15)
 
-    // =================================================
-    // STEP 2: OPEN CART
-    // =================================================
     WebUI.click(findTestObject('CUSTOMER/HomePage/icon_cart'))
 
     WebUI.delay(2)
@@ -65,9 +53,6 @@ try {
         }
     }
     
-    // =================================================
-    // STEP 3: ADD PRODUCT IF CART EMPTY
-    // =================================================
     if (isEmptyCart) {
         println('Cart empty -> add product automatically')
 
@@ -92,9 +77,6 @@ try {
         println('Cart already has products')
     }
     
-    // =================================================
-    // STEP 4: CHECKOUT
-    // =================================================
     WebUI.click(findTestObject('CUSTOMER/cart/btn_ProceedToCheckOut'))
 
     WebUI.setText(findTestObject('CUSTOMER/Checkout_Page/txtbox_firstName'), customer.firstName)
@@ -117,9 +99,6 @@ try {
 
     WebUI.click(findTestObject('CUSTOMER/Checkout_Page/btn_ProceedToPay'))
 
-    // =================================================
-    // STEP 5: PAYMENT
-    // =================================================
     WebUI.waitForElementVisible(findTestObject('CUSTOMER/Payment_Stripe/btn_Pay'), 20)
 
     WebUI.click(findTestObject('CUSTOMER/Payment_Stripe/exchange_dolar_total_price'))
@@ -146,9 +125,6 @@ try {
 
     WebUI.waitForElementVisible(findTestObject('CUSTOMER/Payment_Stripe/txt_payment_success'), 20)
 
-    // =================================================
-    // STEP 6: ORDER HISTORY
-    // =================================================
     WebUI.waitForElementClickable(findTestObject('CUSTOMER/HomePage/btn_menu_profile'), 15)
 
     WebUI.click(findTestObject('CUSTOMER/HomePage/btn_menu_profile'))
@@ -161,9 +137,6 @@ try {
 
     String historyDateTime = WebUI.getText(findTestObject('CUSTOMER/Order_History/txtview_date_time'))
 
-    // =================================================
-    // STEP 7: ORDER DETAIL
-    // =================================================
     WebUI.click(findTestObject('CUSTOMER/Order_History/btn_ViewDetails'))
 
     WebUI.waitForElementVisible(findTestObject('CUSTOMER/OrderDetails/txtview_TotalPrice'), 15)
@@ -182,9 +155,6 @@ try {
 
     String detailItems = WebUI.getText(findTestObject('CUSTOMER/OrderDetails/txtview_itemsInformation'))
 
-    // =================================================
-    // VERIFY
-    // =================================================
     assert normalizePrice(historyTotalPrice) == normalizePrice(removeLabel(detailTotalPrice, 'Total:'))
 
     assert normalizePrice(stripeTotalPrice) == normalizePrice(removeLabel(detailTotalPrice, 'Total:'))
@@ -223,9 +193,6 @@ finally {
     WebUI.closeBrowser()
 }
 
-// =====================================================
-// HELPER METHODS
-// =====================================================
 String normalizePrice(String value) {
     return value.replaceAll('[^0-9.]', '').trim()
 }

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_GUEST_019_Verify_Buy_NotVisible</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>75e4366c-2680-49e2-a4e6-298230a7f386</testCaseGuid>
-</TestCaseEntity>

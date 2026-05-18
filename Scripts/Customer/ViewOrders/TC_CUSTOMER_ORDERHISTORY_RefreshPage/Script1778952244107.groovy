@@ -21,40 +21,22 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-// ========================================
-// Navigate To Login Page
-// ========================================
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
 
-// ========================================
-// Login
-// ========================================
 WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_email'), 'customer2@gmail.com')
 
 WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_password'), 'Customer@123456')
 
 WebUI.click(findTestObject('CUSTOMER/Page_Login(USER)/btn_Sign in'))
 
-// ========================================
-// Verify Login Successful
-// ========================================
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/HomePage/btn_menu_profile'), 10)
 
-// ========================================
-// Open Order History
-// ========================================
 WebUI.click(findTestObject('CUSTOMER/HomePage/btn_menu_profile'))
 
 WebUI.delay(3)
 
-// ========================================
-// Verify Order History Displayed
-// ========================================
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/div_OrderHistory'), 10)
 
-// ========================================
-// Verify At Least One Order Exists
-// ========================================
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/txtview_totalPrice'), 10)
 
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/txtview_status_Payment'), 0)
@@ -67,9 +49,6 @@ WebUI.refresh()
 
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/div_OrderHistory'), 10)
 
-// ========================================
-// Verify At Least One Order Exists
-// ========================================
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/txtview_totalPrice'), 10)
 
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/txtview_status_Payment'), 0)
@@ -78,8 +57,5 @@ WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/txtview_date_t
 
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/btn_ViewDetails'), 0)
 
-// ========================================
-// Close Browser
-// ========================================
 WebUI.closeBrowser()
 

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_GUEST_007_SearchMultiKeywords</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>2b7f404d-f6f5-486d-9372-4496cb7991db</testCaseGuid>
-</TestCaseEntity>

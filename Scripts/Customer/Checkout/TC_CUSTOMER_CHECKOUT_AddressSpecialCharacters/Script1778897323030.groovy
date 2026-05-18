@@ -2,24 +2,13 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-// ========================================
-// TC_CUSTOMER_CHECKOUT_AddressSpecialCharacters
-// Verify checkout with special characters in address
-// ========================================
-
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-// ========================================
-// Navigate to Login page
-// ========================================
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
 
-// ========================================
-// Login with valid account
-// ========================================
 
 WebUI.setText(
 	findTestObject('CUSTOMER/Page_Login(USER)/txtbox_email'),
@@ -35,15 +24,10 @@ WebUI.click(
 	findTestObject('CUSTOMER/Page_Login(USER)/btn_Sign in')
 )
 
-// Verify login successful
 WebUI.verifyElementPresent(
 	findTestObject('CUSTOMER/HomePage/btn_menu_profile'),
 	10
 )
-
-// ========================================
-// Open Product Detail
-// ========================================
 
 WebUI.click(
 	findTestObject('CUSTOMER/HomePage/btn_menu_Home')
@@ -53,20 +37,14 @@ WebUI.click(
 	findTestObject('CUSTOMER/product_detail/productname_jacket')
 )
 
-// Buy directly
 WebUI.click(
 	findTestObject('CUSTOMER/product_detail/btn_buy')
 )
 
-// Verify Checkout page displayed
 WebUI.verifyElementPresent(
 	findTestObject('CUSTOMER/Checkout_Page/btn_ProceedToPay'),
 	10
 )
-
-// ========================================
-// Fill Shipping Information
-// ========================================
 
 WebUI.setText(
 	findTestObject('CUSTOMER/Checkout_Page/txtbox_firstName'),
@@ -78,7 +56,6 @@ WebUI.setText(
 	'Test'
 )
 
-// Address with special characters
 WebUI.setText(
 	findTestObject('CUSTOMER/Checkout_Page/txtbox_houseNumber'),
 	'#12-A'
@@ -114,25 +91,15 @@ WebUI.setText(
 	'customer2@gmail.com'
 )
 
-// ========================================
-// Proceed To Pay
-// ========================================
-
 WebUI.click(
 	findTestObject('CUSTOMER/Checkout_Page/btn_ProceedToPay')
 )
 
 WebUI.delay(3)
 
-// ========================================
-// Verify checkout successful
-// ========================================
-
-// Redirected to Stripe payment page
 WebUI.verifyElementPresent(
 	findTestObject('CUSTOMER/Payment_Stripe/div_payment_stripe'),
 	10
 )
 
-// Close browser
 WebUI.closeBrowser()

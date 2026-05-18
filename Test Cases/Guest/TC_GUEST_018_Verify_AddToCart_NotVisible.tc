@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_GUEST_018_Verify_AddToCart_NotVisible</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c79983eb-3878-4507-aea9-033275feebaa</testCaseGuid>
-</TestCaseEntity>

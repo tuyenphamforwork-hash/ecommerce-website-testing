@@ -19,43 +19,24 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-// ========================================
-// Navigate to Login page
-// ========================================
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
 
-// ========================================
-// Login
-// ========================================
 WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_email'), 'customer2@gmail.com')
 
 WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_password'), 'Customer@123456')
 
 WebUI.click(findTestObject('CUSTOMER/Page_Login(USER)/btn_Sign in'))
 
-// Verify login successful
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/HomePage/btn_menu_profile'), 10)
 
-// ========================================
-// Open Product Detail
-// ========================================
 WebUI.click(findTestObject('CUSTOMER/HomePage/btn_menu_Home'))
 
 WebUI.click(findTestObject('CUSTOMER/product_detail/productname_jacket'))
 
-// ========================================
-// Buy product directly
-// ========================================
 WebUI.click(findTestObject('CUSTOMER/product_detail/btn_buy'))
 
-// ========================================
-// Verify Checkout Page displayed
-// ========================================
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Checkout_Page/btn_ProceedToPay'), 10)
 
-// ========================================
-// Fill Shipping Information
-// ========================================
 WebUI.setText(findTestObject('CUSTOMER/Checkout_Page/txtbox_firstName'), 'Customer')
 
 WebUI.setText(findTestObject('CUSTOMER/Checkout_Page/txtbox_lastName'), 'Test')
@@ -74,82 +55,45 @@ WebUI.setText(findTestObject('CUSTOMER/Checkout_Page/txtbox_contactNumber'), '09
 
 WebUI.setText(findTestObject('CUSTOMER/Checkout_Page/txtbox_emailAddress'), 'customer2@gmail.com')
 
-// ========================================
-// Proceed To Stripe Payment
-// ========================================
 WebUI.click(findTestObject('CUSTOMER/Checkout_Page/btn_ProceedToPay'))
 
 WebUI.delay(5)
 
-// ========================================
-// Verify Stripe Payment Page displayed
-// ========================================
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Payment_Stripe/div_payment_stripe'), 10)
 
-// ========================================
-// Fill Card Information
-// ========================================
-// Valid card number
 WebUI.setText(findTestObject('CUSTOMER/Payment_Stripe/txtbox_cardNumber'), '4242424242424242')
 
-// Valid expiry
 WebUI.setText(findTestObject('CUSTOMER/Payment_Stripe/txtbox_cardExpiry'), '1230')
 
-// INVALID CVV
 WebUI.setText(findTestObject('CUSTOMER/Payment_Stripe/txtbox_cardCvc'), '12')
 
-// Cardholder Name
 WebUI.setText(findTestObject('CUSTOMER/Payment_Stripe/txtbox_Cardholder name_billingName'), 'Customer 2')
 
-// Country
 WebUI.selectOptionByLabel(findTestObject('CUSTOMER/Payment_Stripe/select_country'), 'Vietnam', false)
 
 WebUI.delay(3)
 
-// ========================================
-// Click Pay
-// ========================================
 WebUI.click(findTestObject('CUSTOMER/Payment_Stripe/btn_Pay'))
 
 WebUI.delay(5)
 
-// ========================================
-// Verify payment blocked
-// ========================================
-// Still on Stripe payment page
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Payment_Stripe/div_payment_stripe'), 10)
 
-// Pay button still displayed
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Payment_Stripe/btn_Pay'), 10)
 
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Payment_Stripe/msg_InvalidCVC'), 0)
 
-// ========================================
-// Verify error message displayed
-// ========================================
-// Stripe usually shows:
-// "Your card's security code is incomplete"
-// or similar
 boolean invalidCVCErrorDisplayed = WebUI.verifyTextPresent('Your card’s security code is incomplete.', false, FailureHandling.OPTIONAL)
 
 WebUI.verifyEqual(invalidCVCErrorDisplayed, true)
 
-// ========================================
-// Verify payment NOT successful
-// ========================================
 boolean paymentSuccessDisplayed = WebUI.verifyTextPresent('Payment successful! Your order has been placed.', false, FailureHandling.OPTIONAL)
 
 WebUI.verifyEqual(paymentSuccessDisplayed, false)
 
-// ========================================
-// Verify Homepage NOT displayed
-// ========================================
 boolean homepageDisplayed = WebUI.verifyElementPresent(findTestObject('CUSTOMER/HomePage/btn_menu_profile'), 3, FailureHandling.OPTIONAL)
 
 WebUI.verifyEqual(homepageDisplayed, false)
 
-// ========================================
-// Close Browser
-// ========================================
 WebUI.closeBrowser()
 
