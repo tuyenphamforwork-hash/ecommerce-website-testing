@@ -56,7 +56,7 @@ WebUI.waitForPageLoad(5)
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/SettingsPage/img_website_logo_current'), 10)
 
-String logoPath = RunConfiguration.getProjectDir() + '/Include/images/new_website_logo.jpg'
+String logoPath = RunConfiguration.getProjectDir() + '/Include/images/img_logo_new.png'
 
 File logoFile = new File(logoPath)
 

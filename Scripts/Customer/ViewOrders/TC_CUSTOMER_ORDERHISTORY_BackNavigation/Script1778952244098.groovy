@@ -19,71 +19,41 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-// ========================================
-// Navigate To Login Page
-// ========================================
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
 
-// ========================================
-// Login
-// ========================================
 WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_email'), 'customer2@gmail.com')
 
 WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_password'), 'Customer@123456')
 
 WebUI.click(findTestObject('CUSTOMER/Page_Login(USER)/btn_Sign in'))
 
-// ========================================
-// Open Order History
-// ========================================
 WebUI.click(findTestObject('CUSTOMER/HomePage/btn_menu_Home'))
 
 WebUI.click(findTestObject('CUSTOMER/HomePage/btn_menu_profile'))
 
 WebUI.delay(3)
 
-// ========================================
-// Verify Order History Displayed
-// ========================================
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/div_OrderHistory'), 10)
 
-// ========================================
-// Get Current URL
-// ========================================
 String orderHistoryUrl = WebUI.getUrl()
 
 println('Order History URL: ' + orderHistoryUrl)
 
-// ========================================
-// Browser Back
-// ========================================
 WebUI.back()
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('CUSTOMER/HomePage/btn_menu_profile'))
 
-// ========================================
-// Verify Returned To Order History
-// ========================================
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/div_OrderHistory'), 10)
 
-// ========================================
-// Verify URL Returned Correctly
-// ========================================
 String returnedUrl = WebUI.getUrl()
 
 println('Returned URL: ' + returnedUrl)
 
 WebUI.verifyEqual(returnedUrl, orderHistoryUrl)
 
-// ========================================
-// Verify Order List Still Displayed
-// ========================================
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/txtview_totalPrice'), 10)
 
-// ========================================
-// Close Browser
-// ========================================
 WebUI.closeBrowser()
 

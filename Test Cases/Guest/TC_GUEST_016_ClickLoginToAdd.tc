@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_GUEST_016_ClickLoginToAdd</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>36689319-f504-4564-a127-2769cfc35e32</testCaseGuid>
-</TestCaseEntity>

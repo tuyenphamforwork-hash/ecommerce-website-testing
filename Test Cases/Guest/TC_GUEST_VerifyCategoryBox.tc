@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GUEST_VerifyCategoryBox</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b82ef7e-45bf-4b42-b4c0-2d907b31748a</testCaseGuid>
+</TestCaseEntity>

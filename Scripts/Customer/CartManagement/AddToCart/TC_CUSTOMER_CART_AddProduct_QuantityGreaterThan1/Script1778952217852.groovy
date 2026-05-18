@@ -2,18 +2,12 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-// =====================================================
-// TC_CUSTOMER_CART_AddProduct_QuantityGreaterThan1
-// Verify quantity after add = quantity before + input quantity
-// =====================================================
-
 int addQuantity = 3
 int quantityBefore = 0
 
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
 
-// Login
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
 
 WebUI.setText(
@@ -33,9 +27,6 @@ WebUI.verifyElementPresent(
     10
 )
 
-// ========================================
-// Check quantity before add
-// ========================================
 WebUI.click(findTestObject('CUSTOMER/HomePage/icon_cart'))
 
 boolean hasProduct = WebUI.verifyElementPresent(
@@ -56,12 +47,8 @@ if (hasProduct) {
 
 println("Quantity before add: " + quantityBefore)
 
-// Back home
 WebUI.click(findTestObject('CUSTOMER/HomePage/btn_menu_Home'))
 
-// ========================================
-// Open product detail
-// ========================================
 WebUI.click(findTestObject('CUSTOMER/product_detail/productname_jacket'))
 
 WebUI.verifyElementPresent(
@@ -69,20 +56,15 @@ WebUI.verifyElementPresent(
     10
 )
 
-// Input quantity
 WebUI.clearText(findTestObject('CUSTOMER/product_detail/txtbox_quantity'))
 WebUI.setText(
     findTestObject('CUSTOMER/product_detail/txtbox_quantity'),
     addQuantity.toString()
 )
 
-// Add to cart
 WebUI.click(findTestObject('CUSTOMER/product_detail/btn_AddToCart'))
 WebUI.delay(2)
 
-// ========================================
-// Verify quantity after add
-// ========================================
 WebUI.click(findTestObject('CUSTOMER/HomePage/icon_cart'))
 WebUI.delay(2)
 
@@ -99,7 +81,6 @@ println("Actual quantity: " + quantityAfter)
 
 WebUI.verifyEqual(quantityAfter, expectedQuantity)
 
-// Verify product exists
 WebUI.verifyElementPresent(
     findTestObject('CUSTOMER/cart/lbl_product_name'),
     10

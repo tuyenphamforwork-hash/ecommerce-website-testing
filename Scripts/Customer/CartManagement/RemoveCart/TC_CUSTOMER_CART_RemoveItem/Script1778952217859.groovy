@@ -7,17 +7,11 @@ import internal.GlobalVariable as GlobalVariable
 
 import org.openqa.selenium.WebElement
 
-// Open browser
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-// Navigate to Login page
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
-
-// ========================================
-// Login with valid account
-// ========================================
 
 WebUI.setText(
 	findTestObject('CUSTOMER/Page_Login(USER)/txtbox_email'),
@@ -33,26 +27,16 @@ WebUI.click(
 	findTestObject('CUSTOMER/Page_Login(USER)/btn_Sign in')
 )
 
-// Verify login success
 WebUI.verifyElementPresent(
 	findTestObject('CUSTOMER/HomePage/btn_menu_profile'),
 	10
 )
-
-// ========================================
-// Open Cart page
-// ========================================
 
 WebUI.click(
 	findTestObject('CUSTOMER/HomePage/icon_cart')
 )
 
 WebUI.delay(2)
-
-// ========================================
-// Count items before remove
-// Count based on Remove buttons
-// ========================================
 
 List<WebElement> beforeItems = WebUiCommonHelper.findWebElements(
 	findTestObject('CUSTOMER/cart/btn_remove'),
@@ -63,21 +47,14 @@ int beforeCount = beforeItems.size()
 
 println("Before remove item count = " + beforeCount)
 
-// Verify cart has at least 1 item
 WebUI.verifyGreaterThan(beforeCount, 0)
-
-// ========================================
-// Click Remove button
-// ========================================
 
 WebUI.click(
 	findTestObject('CUSTOMER/cart/btn_remove')
 )
 
-// Wait alert displayed
 WebUI.waitForAlert(5)
 
-// Verify alert message
 String alertText = WebUI.getAlertText()
 
 WebUI.verifyMatch(
@@ -86,15 +63,9 @@ WebUI.verifyMatch(
 	false
 )
 
-// Click OK
 WebUI.acceptAlert()
 
-// Wait system update
 WebUI.delay(3)
-
-// ========================================
-// Count items after remove
-// ========================================
 
 List<WebElement> afterItems = WebUiCommonHelper.findWebElements(
 	findTestObject('CUSTOMER/cart/btn_remove'),
@@ -105,14 +76,9 @@ int afterCount = afterItems.size()
 
 println("After remove item count = " + afterCount)
 
-// ========================================
-// Verify item count decreased by 1
-// ========================================
-
 WebUI.verifyEqual(
 	afterCount,
 	beforeCount - 1
 )
 
-// Close browser
 WebUI.closeBrowser()

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_GUEST_003_SearchEmpty</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>1eb27bbf-5a28-4006-822d-769c39c3a19f</testCaseGuid>
-</TestCaseEntity>

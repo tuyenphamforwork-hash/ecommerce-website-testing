@@ -75,13 +75,6 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>efb865b6-d402-4357-af75-0431bf3db736</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/ManageProduct/TC_ADMIN_AddProduct_NegativeValue</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>cbaef48e-033e-4228-8baf-ae0fe3669ca8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -89,10 +82,10 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>90629d87-c01b-4591-a020-d04d97b1d405</guid>
+      <guid>efb865b6-d402-4357-af75-0431bf3db736</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/ManageProduct/TC_ADMIN_DeleteProduct_Success</testCaseId>
+      <testCaseId>Test Cases/Admin/ManageProduct/TC_ADMIN_AddProduct_NegativeValue</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -100,6 +93,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin/ManageProduct/TC_ADMIN_EditProduct_Success</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>90629d87-c01b-4591-a020-d04d97b1d405</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin/ManageProduct/TC_ADMIN_DeleteProduct_Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

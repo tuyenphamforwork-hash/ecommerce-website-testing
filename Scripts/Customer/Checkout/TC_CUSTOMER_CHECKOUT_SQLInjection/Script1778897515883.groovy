@@ -6,15 +6,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-// ========================================
-// Navigate to Login page
-// ========================================
-
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
-
-// ========================================
-// Login with valid account
-// ========================================
 
 WebUI.setText(
 	findTestObject('CUSTOMER/Page_Login(USER)/txtbox_email'),
@@ -30,15 +22,10 @@ WebUI.click(
 	findTestObject('CUSTOMER/Page_Login(USER)/btn_Sign in')
 )
 
-// Verify login successful
 WebUI.verifyElementPresent(
 	findTestObject('CUSTOMER/HomePage/btn_menu_profile'),
 	10
 )
-
-// ========================================
-// Open Product Detail
-// ========================================
 
 WebUI.click(
 	findTestObject('CUSTOMER/HomePage/btn_menu_Home')
@@ -48,26 +35,16 @@ WebUI.click(
 	findTestObject('CUSTOMER/product_detail/productname_jacket')
 )
 
-// Buy directly
 WebUI.click(
 	findTestObject('CUSTOMER/product_detail/btn_buy')
 )
 
-// Verify Checkout page displayed
 WebUI.verifyElementPresent(
 	findTestObject('CUSTOMER/Checkout_Page/btn_ProceedToPay'),
 	10
 )
 
-// ========================================
-// SQL Injection Payload
-// ========================================
-
 String sqlPayload = "' OR '1'='1"
-
-// ========================================
-// Fill Checkout Fields with SQL Injection
-// ========================================
 
 WebUI.setText(
 	findTestObject('CUSTOMER/Checkout_Page/txtbox_firstName'),
@@ -114,9 +91,6 @@ WebUI.setText(
 	'customer2@gmail.com'
 )
 
-// ========================================
-// Click Proceed To Pay
-// ========================================
 
 WebUI.click(
 	findTestObject('CUSTOMER/Checkout_Page/btn_ProceedToPay')
@@ -124,11 +98,6 @@ WebUI.click(
 
 WebUI.delay(3)
 
-// ========================================
-// Verify system does NOT expose SQL error
-// ========================================
-
-// Verify common SQL error messages NOT displayed
 WebUI.verifyTextNotPresent('SQL syntax', false)
 
 WebUI.verifyTextNotPresent('mysql_fetch', false)
@@ -140,15 +109,6 @@ WebUI.verifyTextNotPresent('ORA-', false)
 WebUI.verifyTextNotPresent('syntax error', false)
 
 WebUI.verifyTextNotPresent('Unclosed quotation mark', false)
-
-// ========================================
-// Verify system still stable
-// ========================================
-
-// Either:
-// 1. Still on checkout page
-// OR
-// 2. Redirected safely to payment page
 
 boolean checkoutPageExists = WebUI.verifyElementPresent(
 	findTestObject('CUSTOMER/Checkout_Page/btn_ProceedToPay'),
@@ -162,11 +122,9 @@ boolean paymentPageExists = WebUI.verifyElementPresent(
 	com.kms.katalon.core.model.FailureHandling.OPTIONAL
 )
 
-// Verify at least one valid page exists
 WebUI.verifyEqual(
 	checkoutPageExists || paymentPageExists,
 	true
 )
 
-// Close browser
 WebUI.closeBrowser()

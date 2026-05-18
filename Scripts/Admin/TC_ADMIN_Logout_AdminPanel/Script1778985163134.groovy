@@ -8,9 +8,6 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-// =========================
-// STEP 2: LOGIN
-// =========================
 String adminEmail = 'admin1@gmail.com'
 
 String adminPassword = 'Admin@1234567890'
@@ -27,9 +24,6 @@ WebUI.verifyElementPresent(findTestObject('ADMIN/btn_menu_Profile'), 10)
 
 WebUI.verifyTextPresent('HELLO, ADMIN', false)
 
-// =========================
-// STEP 3: OPEN ADMIN PANEL
-// =========================
 WebUI.click(findTestObject('ADMIN/btn_VisitAdminPanel'))
 
 WebUI.setText(findTestObject('ADMIN/AdminPanelLogin/input_Email'), adminEmail)

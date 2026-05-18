@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_GUEST_027_AccessUrlDirectly</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>6e3ba9c4-3bee-408d-a4b4-3b804a4d2f47</testCaseGuid>
-</TestCaseEntity>

@@ -19,69 +19,35 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-// ========================================
-// Navigate To Login Page
-// ========================================
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
 
-// ========================================
-// Login
-// ========================================
 WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_email'), 'customer2@gmail.com')
 
 WebUI.setText(findTestObject('CUSTOMER/Page_Login(USER)/txtbox_password'), 'Customer@123456')
 
 WebUI.click(findTestObject('CUSTOMER/Page_Login(USER)/btn_Sign in'))
 
-// ========================================
-// Verify Login Successful
-// ========================================
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/HomePage/btn_menu_profile'), 10)
 
-// ========================================
-// Open Order History
-// ========================================
 WebUI.click(findTestObject('CUSTOMER/HomePage/btn_menu_profile'))
 
 WebUI.delay(3)
 
-// ========================================
-// Verify Order History Displayed
-// ========================================
 WebUI.verifyElementPresent(findTestObject('CUSTOMER/Order_History/div_OrderHistory'), 10)
 
-// ========================================
-// Simulate Session Expiration
-// ========================================
-// Delete all cookies/session
 WebUI.deleteAllCookies()
 
-// ========================================
-// Refresh Browser
-// ========================================
 WebUI.refresh()
 
 WebUI.delay(3)
 
 WebUI.verifyElementPresent(findTestObject('GUEST/Homepage/menu_login'), 0)
 
-// ========================================
-// Verify Redirected To Login Page
-// ========================================
 WebUI.verifyElementNotPresent(findTestObject('CUSTOMER/HomePage/btn_menu_profile'), 10)
 
-// ========================================
-// Verify Order History No Longer Accessible
-// ========================================
 WebUI.verifyElementNotPresent(findTestObject('CUSTOMER/Order_History/div_OrderHistory'), 0)
 
-// ========================================
-// Verify User Session Expired
-// ========================================
 WebUI.verifyTextPresent('LOGIN', false)
 
-// ========================================
-// Close Browser
-// ========================================
 WebUI.closeBrowser()
 

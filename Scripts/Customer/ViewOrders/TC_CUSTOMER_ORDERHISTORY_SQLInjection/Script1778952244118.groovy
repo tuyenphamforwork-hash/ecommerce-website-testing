@@ -10,9 +10,6 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-// ========================================
-// Login
-// ========================================
 
 WebUI.navigateToUrl(
 	GlobalVariable.baseUrl + '/login.php'
@@ -32,27 +29,15 @@ WebUI.click(
 	findTestObject('CUSTOMER/Page_Login(USER)/btn_Sign in')
 )
 
-// Verify login successful
 WebUI.verifyElementPresent(
 	findTestObject('CUSTOMER/HomePage/btn_menu_profile'),
 	10
 )
 
-// ========================================
-// SQL Injection Payload
-// ========================================
-
 String payload = "' OR '1'='1"
 
 String encodedPayload =
 	URLEncoder.encode(payload, 'UTF-8')
-
-// ========================================
-// Inject Into Existing Page
-// ========================================
-
-// IMPORTANT:
-// Replace profile.php with your REAL page
 
 String maliciousUrl =
 	GlobalVariable.baseUrl +
@@ -64,10 +49,6 @@ println(maliciousUrl)
 WebUI.navigateToUrl(maliciousUrl)
 
 WebUI.delay(3)
-
-// ========================================
-// Verify No SQL Error
-// ========================================
 
 WebUI.verifyTextNotPresent(
 	'SQL syntax',
@@ -94,18 +75,10 @@ WebUI.verifyTextNotPresent(
 	false
 )
 
-// ========================================
-// Verify Website Still Stable
-// ========================================
-
 WebUI.verifyElementPresent(
 	findTestObject('CUSTOMER/HomePage/btn_menu_profile'),
 	10
 )
-
-// ========================================
-// Verify Unauthorized Data NOT Displayed
-// ========================================
 
 WebUI.verifyTextNotPresent(
 	'admin@gmail.com',
@@ -116,9 +89,5 @@ WebUI.verifyTextNotPresent(
 	'customer1@gmail.com',
 	false
 )
-
-// ========================================
-// Close Browser
-// ========================================
 
 WebUI.closeBrowser()

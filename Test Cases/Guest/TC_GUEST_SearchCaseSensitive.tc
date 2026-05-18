@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GUEST_SearchCaseSensitive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e0b4bec-8f23-4a8b-90af-7ead7851cb53</testCaseGuid>
+</TestCaseEntity>

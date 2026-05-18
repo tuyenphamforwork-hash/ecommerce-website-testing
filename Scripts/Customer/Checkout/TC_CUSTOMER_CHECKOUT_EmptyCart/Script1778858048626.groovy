@@ -7,15 +7,11 @@ import com.kms.katalon.core.model.FailureHandling
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.WebElement
 
-// Open browser
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
 
 try {
 
-	// ========================================
-	// Login
-	// ========================================
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
 
 	WebUI.setText(
@@ -37,18 +33,12 @@ try {
 		10
 	)
 
-	// ========================================
-	// Open Cart
-	// ========================================
 	WebUI.click(
 		findTestObject('CUSTOMER/HomePage/icon_cart')
 	)
 
 	WebUI.delay(2)
 
-	// ========================================
-	// Check current cart state
-	// ========================================
 	List<WebElement> removeButtons = WebUiCommonHelper.findWebElements(
 		findTestObject('CUSTOMER/cart/btn_remove'),
 		3
@@ -69,20 +59,16 @@ try {
 			int itemCount = removeButtons.size()
 			println('Current item count = ' + itemCount)
 
-			// stop when cart empty
 			if (itemCount == 0) {
 				break
 			}
 
-			// click first remove button
 			WebUI.click(
 				findTestObject('CUSTOMER/cart/btn_remove')
 			)
 
-			// wait alert
 			WebUI.waitForAlert(5)
 
-			// verify alert text
 			String alertText = WebUI.getAlertText()
 
 			WebUI.verifyMatch(
@@ -91,17 +77,12 @@ try {
 				false
 			)
 
-			// accept alert
 			WebUI.acceptAlert()
 
-			// wait page update
 			WebUI.delay(2)
 		}
 	}
 
-	// ========================================
-	// Verify cart empty
-	// ========================================
 	WebUI.verifyElementPresent(
 		findTestObject('CUSTOMER/cart/lbl_empty_cart_message'),
 		10
@@ -112,9 +93,6 @@ try {
 		'No item available in cart'
 	)
 
-	// ========================================
-	// Verify checkout button not displayed
-	// ========================================
 	boolean checkoutBtnNotPresent = WebUI.verifyElementNotPresent(
 		findTestObject('CUSTOMER/cart/btn_ProceedToCheckOut'),
 		5,

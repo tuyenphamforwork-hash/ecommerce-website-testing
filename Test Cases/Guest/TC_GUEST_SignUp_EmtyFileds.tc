@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GUEST_SignUp_EmtyFileds</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8f0dec83-193b-45d6-84c8-46b4749b0b22</testCaseGuid>
+</TestCaseEntity>

@@ -6,7 +6,6 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-// Login
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login.php')
 
 WebUI.setText(
@@ -23,15 +22,10 @@ WebUI.click(
 	findTestObject('CUSTOMER/Page_Login(USER)/btn_Sign in')
 )
 
-// Verify login success
 WebUI.verifyElementPresent(
 	findTestObject('CUSTOMER/HomePage/btn_menu_profile'),
 	10
 )
-
-// ========================================
-// Open Product Detail
-// ========================================
 
 WebUI.click(
 	findTestObject('CUSTOMER/HomePage/btn_menu_Home')
@@ -41,20 +35,14 @@ WebUI.click(
 	findTestObject('CUSTOMER/product_detail/productname_jacket')
 )
 
-// Buy directly
 WebUI.click(
 	findTestObject('CUSTOMER/product_detail/btn_buy')
 )
 
-// Verify checkout page
 WebUI.verifyElementPresent(
 	findTestObject('CUSTOMER/Checkout_Page/btn_ProceedToPay'),
 	10
 )
-
-// ========================================
-// Fill valid shipping info
-// ========================================
 
 WebUI.setText(
 	findTestObject('CUSTOMER/Checkout_Page/txtbox_firstName'),
@@ -91,7 +79,6 @@ WebUI.setText(
 	'Vietnam'
 )
 
-// INVALID PHONE
 WebUI.setText(
 	findTestObject('CUSTOMER/Checkout_Page/txtbox_contactNumber'),
 	'123abc'
@@ -102,27 +89,17 @@ WebUI.setText(
 	'customer2@gmail.com'
 )
 
-// ========================================
-// Proceed To Pay
-// ========================================
-
 WebUI.click(
 	findTestObject('CUSTOMER/Checkout_Page/btn_ProceedToPay')
 )
 
 WebUI.delay(2)
 
-// ========================================
-// Verify checkout NOT successful
-// ========================================
-
-// Still stays on checkout page
 WebUI.verifyElementPresent(
 	findTestObject('CUSTOMER/Checkout_Page/btn_ProceedToPay'),
 	10
 )
 
-// Stripe payment page NOT displayed
 WebUI.verifyElementNotPresent(
 	findTestObject('CUSTOMER/Payment_Stripe/div_payment_stripe'),
 	0

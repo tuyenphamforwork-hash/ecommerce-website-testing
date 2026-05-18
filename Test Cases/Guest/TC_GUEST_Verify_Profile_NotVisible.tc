@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GUEST_Verify_Profile_NotVisible</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b2354ab2-3eaf-4317-b1d3-34ec5747e436</testCaseGuid>
+</TestCaseEntity>

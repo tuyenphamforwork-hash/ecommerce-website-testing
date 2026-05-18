@@ -4,18 +4,10 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration
 
-// =========================
-// STEP 1: OPEN BROWSER
-// =========================
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.comment("🚀 START TC_ADMIN_ADD_PRODUCT_INVALID_NUMERIC")
-
-// =========================
-// STEP 2: LOGIN
-// =========================
 String adminEmail = 'admin1@gmail.com'
 String adminPassword = 'Admin@1234567890'
 
@@ -29,9 +21,6 @@ WebUI.click(findTestObject('CUSTOMER/Page_Login(USER)/btn_Sign in'))
 WebUI.verifyElementPresent(findTestObject('ADMIN/btn_menu_Profile'), 10, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyTextPresent('HELLO, ADMIN', false, FailureHandling.STOP_ON_FAILURE)
 
-// =========================
-// STEP 3: OPEN ADMIN PANEL
-// =========================
 WebUI.click(findTestObject('ADMIN/btn_VisitAdminPanel'))
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/AdminPanelLogin/div_AdminPanelLogin'), 10)
@@ -42,20 +31,13 @@ WebUI.setText(findTestObject('ADMIN/AdminPanelLogin/input_Password'), adminPassw
 WebUI.click(findTestObject('ADMIN/btn_SignIn'))
 WebUI.waitForPageLoad(10)
 
-// =========================
-// STEP 4: OPEN ADD PRODUCT
-// =========================
 WebUI.click(findTestObject('ADMIN/Page_Products/btn_AddProducts'))
 WebUI.waitForPageLoad(10)
 
-// =========================
-// STEP 5: TEST DATA (INVALID NUMERIC INPUT)
-// =========================
 String productName = 'Invalid Numeric Product ' + System.currentTimeMillis()
 
 WebUI.setText(findTestObject('ADMIN/AddProductPage/input_product_name'), productName)
 
-// ❌ INVALID VALUES
 WebUI.setText(findTestObject('ADMIN/AddProductPage/input_product_price'), '-100')
 WebUI.setText(findTestObject('ADMIN/AddProductPage/input_discount'), '120')
 WebUI.setText(findTestObject('ADMIN/AddProductPage/input_NumberOfItems'), '-5')
@@ -64,37 +46,25 @@ WebUI.setText(findTestObject('ADMIN/AddProductPage/input_description'), 'Testing
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/AddProductPage/select_catagory'), 'Shirt', false)
 
-// =========================
-// STEP 6: IMAGE UPLOAD (VALID)
-// =========================
 String imagePath = RunConfiguration.getProjectDir() + '/Include/images/img_whiteShirt.png'
 
 File imgFile = new File(imagePath)
 WebUI.comment("IMAGE PATH = " + imagePath)
 WebUI.comment("FILE EXISTS = " + imgFile.exists())
 
-assert imgFile.exists() : "❌ Image not found: " + imagePath
+assert imgFile.exists() : "Image not found: " + imagePath
 
 WebUI.uploadFile(findTestObject('ADMIN/AddProductPage/img_whiteShirt'), imagePath)
 
-// =========================
-// STEP 7: SUBMIT PRODUCT
-// =========================
 WebUI.click(findTestObject('ADMIN/AddProductPage/btn_Add'))
 WebUI.waitForPageLoad(10)
 
-// =========================
-// STEP 8: VERIFY VALIDATION FAIL
-// =========================
-
-// Expected: product MUST NOT be created
 boolean stillOnAddPage = WebUI.verifyElementPresent(
     findTestObject('ADMIN/AddProductPage/btn_Add'),
     5,
     FailureHandling.OPTIONAL
 )
 
-// Optional: check product not created in list page
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/admin/post.php')
 WebUI.waitForPageLoad(10)
 
@@ -104,12 +74,9 @@ boolean productExists = WebUI.verifyTextPresent(
     FailureHandling.OPTIONAL
 )
 
-assert stillOnAddPage == true : "❌ Form should NOT submit with negative values"
-assert productExists == false : "❌ Product should NOT be created with invalid numeric input"
+assert stillOnAddPage == true : "Form should NOT submit with negative values"
+assert productExists == false : "Product should NOT be created with invalid numeric input"
 
-WebUI.comment("✅ VALIDATION PASSED: Negative price/quantity blocked")
+WebUI.comment("VALIDATION PASSED: Negative price/quantity blocked")
 
-// =========================
-// STEP 9: CLOSE
-// =========================
 WebUI.closeBrowser()
